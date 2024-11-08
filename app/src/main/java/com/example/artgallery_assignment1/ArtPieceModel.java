@@ -1,73 +1,47 @@
 package com.example.artgallery_assignment1;
 
-import java.util.ArrayList;
-
 public class ArtPieceModel {
-    private String title;
-    private String description;
-    private String shortDescription;
-    private int starRating;
-    private int reviews;
-    private String imageUrl;
+    private final String title;
+    private final String shortDescription;
+    private final String description;
+    private final String image;
+    private final double rating;
+    private final int reviews;
 
     // Constructor
-    public ArtPieceModel(String title, String description, String shortDescription, String imageUrl, int starRating, int reviews) {
+    public ArtPieceModel(String title, String shortDescription, String description, String image, double rating, int reviews) {
         this.title = title;
-        this.description = description;
         this.shortDescription = shortDescription;
-        this.imageUrl = imageUrl;
-        this.starRating = starRating;
+        this.description = description;
+        this.image = image;
+        this.rating = rating;
         this.reviews = reviews;
     }
 
-    // Getters
+    // Getters and Setters for the fields
     public String getTitle() {
         return title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getImageUrl() {
-        return imageUrl;
     }
 
     public String getShortDescription() {
         return shortDescription;
     }
 
-    public int getStarRating() {
-        return starRating;
+    public String getDescription() {
+        return description;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public double getRating() {
+        return rating;
     }
 
     public int getReviews() {
         return reviews;
     }
-
-    // Setters
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
-    }
-
-    public void setShortDescription(String shortDescription) {
-        this.shortDescription = shortDescription;
-    }
-
-    public void setStarRating(int starRating) {
-        this.starRating = starRating;
-    }
-
-    public void setReviews(int reviews) {
-        this.reviews = reviews;
-    }
 }
+
 

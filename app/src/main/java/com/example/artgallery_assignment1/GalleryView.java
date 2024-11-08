@@ -2,41 +2,92 @@ package com.example.artgallery_assignment1;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class GalleryView extends AppCompatActivity {
+import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class GalleryView extends AppCompatActivity implements ArtPieceAdapter.OnArtPieceClickListener {
+
+    private ArrayList<ArtPieceModel> artPieces;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_gallery_view);
 
-        RecyclerView recyclerView = findViewById(R.id.galleryView);
+        RecyclerView recyclerView = findViewById(R.id.recyclerGalleryView);
+
+        // Load the art pieces from the JSON
+        artPieces = loadArtPiecesFromJson();
+
+        ArtPieceAdapter adapter = new ArtPieceAdapter(this, artPieces, this);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-//        Fetch ArtPiece component into list of ArtPieces in GalleryView
-        ArtPieceModel adapter = new ArtPieceModel(ArtPieceView.getArtPieces(), this);
         recyclerView.setAdapter(adapter);
-
-        // Event Listener
-        adapter.setOnItemClickListener(new ArtPieceAdapter.OnItemClickListener() {
-            @Override
-            public void onItemClick(int position) {
-                ArtPieceModel artPiece = ArtPieceView.getArtPieces().get(position);
-                Intent intent = new Intent(GalleryView.this, ArtPieceDetailView.class);
-                intent.putExtra("title", artPiece.getTitle());
-                intent.putExtra("description", artPiece.getDescription());
-                intent.putExtra("shortDescription", artPiece.getShortDescription());
-                intent.putExtra("imageUrl", artPiece.getImageUrl());
-                intent.putExtra("starRating", artPiece.getStarRating());
-                intent.putExtra("reviews", artPiece.getReviews());
-                startActivity(intent);
-            }
-        });
     }
+
+    private ArrayList<ArtPieceModel> loadArtPiecesFromJson() {
+        ArrayList<ArtPieceModel> artPieces = new ArrayList<>();
+
+        try (InputStream inputStream = getAssets().open("art-pieces.json")) {
+            String json = convertStreamToString(inputStream);
+            Log.d("GalleryView", "Loaded JSON: " + json);
+
+            // Parse the JSON into ArtPieceModel array
+            Gson gson = new Gson();
+            ArtPieceModel[] artPiecesArray = gson.fromJson(json, ArtPieceModel[].class);
+
+            if (artPiecesArray != null) {
+                artPieces.addAll(Arrays.asList(artPiecesArray));
+            } else {
+                Log.e("GalleryView", "Error: Parsed array is null.");
+            }
+        } catch (IOException e) {
+            Log.e("GalleryView", "Error reading JSON file", e);
+        } catch (JsonSyntaxException e) {
+            Log.e("GalleryView", "Error parsing JSON", e);
+        }
+
+        return artPieces;
+    }
+
+
+    private String convertStreamToString(InputStream is) throws IOException {
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8))) {
+            StringBuilder sb = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                sb.append(line).append("\n");
+            }
+            return sb.toString();
+        }
+    }
+
+
+
+    @Override
+    public void onArtPieceClick(int position) {
+        ArtPieceModel selectedArtPiece = artPieces.get(position);
+
+        // Convert the selected ArtPieceModel to JSON
+        String artPieceJson = new Gson().toJson(selectedArtPiece);
+
+        // Pass data to the detailed view using Intent
+        Intent intent = new Intent(this, ArtPieceView.class);
+        intent.putExtra("artPiece", artPieceJson);
+        startActivity(intent);
+    }
+
 }
