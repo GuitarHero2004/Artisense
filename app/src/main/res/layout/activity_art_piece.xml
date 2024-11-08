@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/artPieceOverall"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:padding="8dp"
     android:layout_marginVertical="8dp"
-    android:gravity="center">
+    android:gravity="fill_horizontal|center"
+    android:orientation="horizontal"
+    android:padding="8dp">
 
     <!-- ImageView for the art piece image -->
     <ImageView
@@ -13,51 +14,74 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginEnd="8dp"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/fintechlogo" />
 
     <!-- Vertical LinearLayout for holding text views -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:paddingHorizontal="8dp"
-        android:paddingVertical="4dp"
-        android:orientation="vertical">
+        android:paddingVertical="4dp">
 
         <!-- TextView for the art piece title -->
         <TextView
             android:id="@+id/artTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="4dp"
             android:layout_marginVertical="2dp"
+            android:paddingHorizontal="4dp"
             android:text="Art Title"
             android:textColor="#000"
             android:textSize="18sp" />
 
         <!-- TextView for the art piece description -->
         <TextView
-            android:id="@+id/artDescription"
-            android:layout_width="wrap_content"
+            android:id="@+id/artShortDescription"
+            android:layout_width="207dp"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="4dp"
             android:layout_marginVertical="2dp"
-            android:text="Art Description"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingHorizontal="4dp"
+            android:text="Art Short Description"
             android:textColor="#666"
             android:textSize="14sp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginVertical="2dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <!-- Star Images for ratings -->
 
             <ImageView
                 android:layout_width="16dp"
                 android:layout_height="16dp"
-                android:src="@drawable/star"/>
+                android:src="@drawable/star" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/star" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/star" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/star" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/star" />
 
             <!-- TextView for number of reviews -->
             <TextView
@@ -66,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:paddingHorizontal="4dp"
-                android:text="(123 reviews)"
+                android:text="123"
                 android:textColor="#666"
                 android:textSize="14sp" />
         </LinearLayout>
