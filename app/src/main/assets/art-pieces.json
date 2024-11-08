@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Mona Lisa",
+    "shortDescription": "A portrait painting by Leonardo da Vinci, one of the most famous works of art.",
+    "description": "The Mona Lisa is renowned for the enigmatic expression on the subject's face and the atmospheric quality of the background. It has been part of the Louvre collection since 1797.",
+    "image": "fintechlogo.jpg",
+    "rating": 4.8,
+    "reviews": 500
+  },
+  {
+    "title": "The Starry Night",
+    "shortDescription": "A famous painting by Vincent van Gogh, depicting a swirling night sky.",
+    "description": "The Starry Night portrays Van Gogh's view from his asylum room, characterized by the bold brush strokes and the emotional intensity that mark his work.",
+    "image": "mona_lisa.jpg",
+    "rating": 4.9,
+    "reviews": 750
+  },
+  {
+    "title": "The Persistence of Memory",
+    "shortDescription": "A surreal painting by Salvador Dalí, featuring melting clocks.",
+    "description": "The Persistence of Memory represents the fluidity of time in a dreamlike landscape, and it has become one of the most iconic works of surrealism.",
+    "image": "mona_lisa.jpg",
+    "rating": 4.7,
+    "reviews": 430
+  },
+  {
+    "title": "Girl with a Pearl Earring",
+    "shortDescription": "A famous painting by Johannes Vermeer, often called the 'Mona Lisa of the North.'",
+    "description": "This portrait, painted by Vermeer, captures a girl turning towards the viewer with a captivating expression, highlighted by her luminous pearl earring.",
+    "image": "mona_lisa.jpg",
+    "rating": 4.6,
+    "reviews": 600
+  }
+]
