@@ -3,7 +3,7 @@
     "title": "Mona Lisa",
     "shortDescription": "A portrait painting by Leonardo da Vinci, one of the most famous works of art.",
     "description": "The Mona Lisa is renowned for the enigmatic expression on the subject's face and the atmospheric quality of the background. It has been part of the Louvre collection since 1797.",
-    "image": "fintechlogo.jpg",
+    "image": "van_gogh",
     "rating": 4.8,
     "reviews": 500
   },
@@ -11,7 +11,7 @@
     "title": "The Starry Night",
     "shortDescription": "A famous painting by Vincent van Gogh, depicting a swirling night sky.",
     "description": "The Starry Night portrays Van Gogh's view from his asylum room, characterized by the bold brush strokes and the emotional intensity that mark his work.",
-    "image": "mona_lisa.jpg",
+    "image": "van_gogh",
     "rating": 4.9,
     "reviews": 750
   },
@@ -19,7 +19,7 @@
     "title": "The Persistence of Memory",
     "shortDescription": "A surreal painting by Salvador Dalí, featuring melting clocks.",
     "description": "The Persistence of Memory represents the fluidity of time in a dreamlike landscape, and it has become one of the most iconic works of surrealism.",
-    "image": "mona_lisa.jpg",
+    "image": "mona_lisa",
     "rating": 4.7,
     "reviews": 430
   },
@@ -27,8 +27,56 @@
     "title": "Girl with a Pearl Earring",
     "shortDescription": "A famous painting by Johannes Vermeer, often called the 'Mona Lisa of the North.'",
     "description": "This portrait, painted by Vermeer, captures a girl turning towards the viewer with a captivating expression, highlighted by her luminous pearl earring.",
-    "image": "mona_lisa.jpg",
+    "image": "mona_lisa",
     "rating": 4.6,
     "reviews": 600
+  },
+  {
+    "title": "The Scream",
+    "shortDescription": "An iconic expressionist painting by Edvard Munch, symbolizing existential angst.",
+    "description": "The Scream depicts a figure holding their face in despair against a turbulent sky, embodying a moment of intense emotion. It has become a powerful symbol of anxiety in modern art.",
+    "image": "van_gogh",
+    "rating": 4.8,
+    "reviews": 580
+  },
+  {
+    "title": "The Night Watch",
+    "shortDescription": "A masterpiece by Rembrandt, showing a city militia in action.",
+    "description": "The Night Watch is renowned for its large scale and the dramatic use of light and shadow, which brings life to the characters and action of the scene.",
+    "image": "mona_lisa",
+    "rating": 4.5,
+    "reviews": 690
+  },
+  {
+    "title": "The Kiss",
+    "shortDescription": "A famous painting by Gustav Klimt, symbolizing love and intimacy.",
+    "description": "The Kiss is known for its lavish use of gold leaf and intricate patterns, portraying an intimate embrace between a couple in a timeless, decorative style.",
+    "image": "mona_lisa",
+    "rating": 4.9,
+    "reviews": 520
+  },
+  {
+    "title": "American Gothic",
+    "shortDescription": "A painting by Grant Wood, capturing rural American life.",
+    "description": "American Gothic is one of the most famous images of 20th-century American art, featuring a farmer and his daughter against a backdrop of their home, symbolizing resilience and tradition.",
+    "image": "mona_lisa",
+    "rating": 4.6,
+    "reviews": 480
+  },
+  {
+    "title": "Las Meninas",
+    "shortDescription": "A complex and intriguing painting by Diego Velázquez.",
+    "description": "Las Meninas is celebrated for its composition, featuring a self-portrait of Velázquez within the painting, along with the Spanish royal family, adding layers of intrigue and perspective.",
+    "image": "van_gogh",
+    "rating": 4.7,
+    "reviews": 510
+  },
+  {
+    "title": "The Birth of Venus",
+    "shortDescription": "A renowned Renaissance painting by Sandro Botticelli.",
+    "description": "The Birth of Venus is famous for its depiction of the goddess Venus emerging from the sea, symbolizing beauty and love, and is celebrated for its graceful lines and delicate details.",
+    "image": "mona_lisa",
+    "rating": 4.8,
+    "reviews": 615
   }
 ]
