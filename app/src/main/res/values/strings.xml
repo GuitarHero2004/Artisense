@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ArtGallery_Assignment1</string>
+    <string name="art_title">Art Title</string>
+    <string name="sample_description">Sample Description</string>
 </resources>

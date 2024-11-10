@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/artPieceOverall"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginVertical="8dp"
     android:gravity="fill_horizontal|center"
     android:orientation="horizontal"
-    android:padding="8dp">
+    android:padding="8dp"
+    android:background="@drawable/art_piece_border">
 
     <!-- ImageView for the art piece image -->
-    <ImageView
-        android:id="@+id/artImage"
+    <androidx.cardview.widget.CardView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginEnd="8dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/fintechlogo" />
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/artImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fintechlogo" />
+
+    </androidx.cardview.widget.CardView>
 
     <!-- Vertical LinearLayout for holding text views -->
     <LinearLayout
@@ -23,7 +34,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingHorizontal="8dp"
-        android:paddingVertical="4dp">
+        android:paddingVertical="4dp"
+        android:layout_weight="1">
 
         <!-- TextView for the art piece title -->
         <TextView
@@ -56,32 +68,32 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <!-- Star Images for ratings -->
+<!--            LinearLayout for holding the star icon and review count-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginRight="4dp">
 
-            <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
-                android:src="@drawable/star" />
+                <!-- ImageView for the star icon -->
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/star" />
 
-            <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
-                android:src="@drawable/star" />
+    <!--            TextView for number of reviews-->
+                <TextView
+                    android:id="@+id/starsCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:paddingHorizontal="4dp"
+                    android:text="4.0"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
 
-            <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
-                android:src="@drawable/star" />
-
-            <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
-                android:src="@drawable/star" />
-
-            <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
-                android:src="@drawable/star" />
+            </LinearLayout>
 
             <!-- TextView for number of reviews -->
             <TextView
