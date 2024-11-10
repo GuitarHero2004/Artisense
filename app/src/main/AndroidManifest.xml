@@ -16,13 +16,10 @@
             android:name=".ArtPieceDetailView"
             android:exported="false" />
         <activity
-            android:name=".ArtPieceView"
+            android:name=".GalleryActivity"
             android:exported="false" />
         <activity
-            android:name=".GalleryView"
-            android:exported="false" />
-        <activity
-            android:name=".HomePageView"
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
