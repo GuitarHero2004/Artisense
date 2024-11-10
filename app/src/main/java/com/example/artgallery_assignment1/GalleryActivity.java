@@ -19,7 +19,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class GalleryView extends AppCompatActivity implements ArtPieceAdapter.OnArtPieceClickListener {
+public class GalleryActivity extends AppCompatActivity implements ArtPieceAdapter.OnArtPieceClickListener {
 
     private ArrayList<ArtPieceModel> artPieces;
 
@@ -78,14 +78,14 @@ public class GalleryView extends AppCompatActivity implements ArtPieceAdapter.On
 
 
     @Override
-    public void onArtPieceClick(int position) {
-        ArtPieceModel selectedArtPiece = artPieces.get(position);
+    public void onArtPieceClick() {
+        ArtPieceModel selectedArtPiece = artPieces.get(0);
 
         // Convert the selected ArtPieceModel to JSON
         String artPieceJson = new Gson().toJson(selectedArtPiece);
 
         // Pass data to the detailed view using Intent
-        Intent intent = new Intent(this, ArtPieceView.class);
+        Intent intent = new Intent(this, ArtPieceDetailView.class);
         intent.putExtra("artPiece", artPieceJson);
         startActivity(intent);
     }

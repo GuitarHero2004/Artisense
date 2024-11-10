@@ -1,5 +1,6 @@
 package com.example.artgallery_assignment1;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,6 +36,7 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
         return new ArtPieceViewHolder(itemView, onArtPieceClickListener);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onBindViewHolder(@NonNull ArtPieceViewHolder holder, int position) {
         // Get the art piece at the given position
@@ -43,16 +45,24 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
         // Set the data into the views
         holder.titleTextView.setText(artPiece.getTitle());
         holder.descriptionTextView.setText(artPiece.getShortDescription());
+        holder.starsCountTextView.setText(String.valueOf(artPiece.getRating()));
+        holder.reviewsTextView.setText(artPiece.getReviews() + " reviews");
 
-        System.out.println("Binding ArtPiece: " + artPiece.getTitle());
-        Toast.makeText(context, "Loaded: " + artPiece.getTitle(), Toast.LENGTH_SHORT).show();
+//        System.out.println("Binding ArtPiece: " + artPiece.getTitle());
+//        Toast.makeText(context, "Loaded: " + artPiece.getTitle(), Toast.LENGTH_SHORT).show();
 
         // Use Glide to load the image dynamically
-        Glide.with(context)
-                .load(artPiece.getImage())  // Load the image URL from the model
-                .placeholder(R.drawable.fintechlogo)  // Placeholder image while loading
-                .error(R.drawable.fintechlogo)        // Error image if the URL is invalid
-                .into(holder.artImageView);
+        int imageResId = context.getResources().getIdentifier(artPiece.getImage(), "drawable", context.getPackageName());
+        if (imageResId != 0) {  // Check if resource ID is valid
+            Glide.with(context)
+                    .load(imageResId)  // Load the drawable resource ID
+                    .placeholder(R.drawable.fintechlogo)  // Placeholder image while loading
+                    .error(R.drawable.fintechlogo)  // Error image if the resource ID is invalid
+                    .into(holder.artImageView);
+        } else {
+            // If imageResId is 0, the image wasn't found; set error drawable directly
+            holder.artImageView.setImageResource(R.drawable.fintechlogo);
+        }
     }
 
 
@@ -64,7 +74,7 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
     // ViewHolder class to hold the item views
     public static class ArtPieceViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-        TextView titleTextView, descriptionTextView, reviewsTextView;
+        TextView titleTextView, descriptionTextView, starsCountTextView, reviewsTextView;
         ImageView artImageView;
         OnArtPieceClickListener onArtPieceClickListener;
 
@@ -74,6 +84,7 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
             // Bind the views
             titleTextView = itemView.findViewById(R.id.artTitle);
             descriptionTextView = itemView.findViewById(R.id.artShortDescription);
+            starsCountTextView = itemView.findViewById(R.id.starsCount);
             reviewsTextView = itemView.findViewById(R.id.reviewCount);
             artImageView = itemView.findViewById(R.id.artImage);
 
@@ -86,14 +97,14 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
         public void onClick(View v) {
             // Call the click listener for both the item and the right caret icon
             if (onArtPieceClickListener != null) {
-                onArtPieceClickListener.onArtPieceClick(getAdapterPosition());
+                onArtPieceClickListener.onArtPieceClick();
             }
         }
     }
 
     // Interface for item click handling
     public interface OnArtPieceClickListener {
-        void onArtPieceClick(int position);
+        void onArtPieceClick();
     }
 }
 
