@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,10 +9,11 @@
     tools:context=".ArtPieceDetailView">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginVertical="16dp"
+        android:paddingVertical="8dp"
         android:orientation="vertical">
 
         <ImageView
@@ -21,6 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
+            android:layout_gravity="center"
             android:src="@drawable/fintechlogo" />
 
         <TextView
@@ -30,8 +31,22 @@
             android:layout_marginTop="8dp"
             android:paddingHorizontal="4dp"
             android:text="@string/art_title"
-            android:textColor="#000"
-            android:textSize="18sp" />
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/artAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="4dp"
+            android:text="@string/art_author"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
 
     </LinearLayout>
 
@@ -41,6 +56,7 @@
         android:layout_height="wrap_content"
         android:paddingHorizontal="8dp"
         android:paddingVertical="4dp"
-        android:text="@string/sample_description" />
+        android:text="@string/sample_description"
+        android:textSize="14sp" />
 
 </LinearLayout>

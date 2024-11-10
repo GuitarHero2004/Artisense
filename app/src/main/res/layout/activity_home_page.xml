@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/artDetailView"
     android:layout_width="match_parent"
@@ -10,6 +9,7 @@
         android:id="@+id/appBgImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="@string/todo"
         android:scaleType="fitXY"
         android:src="@drawable/applogo" />
 
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="Artisense"
+            android:text="@string/artisense"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="48sp" />
@@ -40,7 +40,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="16dp"
             android:backgroundTint="#4A3E3E"
-            android:text="Enter"
+            android:text="@string/enter"
             android:textColor="@android:color/white"
             android:textSize="24sp" />
 
