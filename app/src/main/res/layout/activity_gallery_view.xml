@@ -1,7 +1,26 @@
-<androidx.recyclerview.widget.RecyclerView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/recyclerGalleryView"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingHorizontal="8dp"
-    android:paddingVertical="4dp" />
+    android:gravity="start"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- TextView above RecyclerView -->
+    <TextView
+        android:id="@+id/galleryViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/famous_art_pieces"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <!-- RecyclerView below the TextView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerGalleryView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="4dp" />
+
+</LinearLayout>

@@ -1,9 +1,13 @@
 <resources>
-    <string name="app_name">ArtGallery_Assignment1</string>
+    <string name="app_name">ArtiSense</string>
     <string name="art_title">Art Title</string>
     <string name="sample_description">Sample Description</string>
     <string name="art_author">By: Art Author</string>
     <string name="todo">TODO</string>
-    <string name="artisense">Artisense</string>
+    <string name="artiSense">ArtiSense</string>
     <string name="enter">Enter</string>
+    <string name="art_short_description">Art Short Description</string>
+    <string name="vincent_van_gogh">Vincent Van Gogh</string>
+    <string name="famous_art_pieces">Famous Art Pieces</string>
+    <string name="art_painted_date">1859</string>
 </resources>
