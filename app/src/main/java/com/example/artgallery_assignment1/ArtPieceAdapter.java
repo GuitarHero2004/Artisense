@@ -44,9 +44,10 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
 
         // Set the data into the views
         holder.titleTextView.setText(artPiece.getTitle());
-        holder.descriptionTextView.setText(artPiece.getShortDescription());
+        holder.authorTextView.setText(artPiece.getAuthor());
+        holder.shortDescriptionTextView.setText(artPiece.getShortDescription());
         holder.starsCountTextView.setText(String.valueOf(artPiece.getRating()));
-        holder.reviewsTextView.setText(artPiece.getReviews() + " reviews");
+        holder.reviewsTextView.setText("(" + artPiece.getReviews() + " reviews)");
 
 //        System.out.println("Binding ArtPiece: " + artPiece.getTitle());
 //        Toast.makeText(context, "Loaded: " + artPiece.getTitle(), Toast.LENGTH_SHORT).show();
@@ -74,7 +75,7 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
     // ViewHolder class to hold the item views
     public static class ArtPieceViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-        TextView titleTextView, descriptionTextView, starsCountTextView, reviewsTextView;
+        TextView titleTextView, authorTextView, shortDescriptionTextView, starsCountTextView, reviewsTextView;
         ImageView artImageView;
         OnArtPieceClickListener onArtPieceClickListener;
 
@@ -83,7 +84,8 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
 
             // Bind the views
             titleTextView = itemView.findViewById(R.id.artTitle);
-            descriptionTextView = itemView.findViewById(R.id.artShortDescription);
+            authorTextView = itemView.findViewById(R.id.artAuthor);
+            shortDescriptionTextView = itemView.findViewById(R.id.artShortDescription);
             starsCountTextView = itemView.findViewById(R.id.starsCount);
             reviewsTextView = itemView.findViewById(R.id.reviewCount);
             artImageView = itemView.findViewById(R.id.artImage);
@@ -97,14 +99,14 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
         public void onClick(View v) {
             // Call the click listener for both the item and the right caret icon
             if (onArtPieceClickListener != null) {
-                onArtPieceClickListener.onArtPieceClick();
+                onArtPieceClickListener.onArtPieceClick(getAdapterPosition());
             }
         }
     }
 
     // Interface for item click handling
     public interface OnArtPieceClickListener {
-        void onArtPieceClick();
+        void onArtPieceClick(int position);
     }
 }
 

@@ -78,14 +78,15 @@ public class GalleryActivity extends AppCompatActivity implements ArtPieceAdapte
 
 
     @Override
-    public void onArtPieceClick() {
-        ArtPieceModel selectedArtPiece = artPieces.get(0);
+    public void onArtPieceClick(int position) {
+        ArtPieceModel selectedArtPiece = artPieces.get(position);
 
         // Convert the selected ArtPieceModel to JSON
         String artPieceJson = new Gson().toJson(selectedArtPiece);
 
         // Pass data to the detailed view using Intent
-        Intent intent = new Intent(this, ArtPieceDetailView.class);
+//        Intent intent = new Intent(this, ArtPieceDetailView.class);
+        Intent intent = new Intent(this, ArtPieceDetailActivity.class);
         intent.putExtra("artPiece", artPieceJson);
         startActivity(intent);
     }
