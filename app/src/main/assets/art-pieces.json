@@ -1,80 +1,100 @@
 [
   {
     "title": "Mona Lisa",
+    "author": "Leonardo da Vinci",
     "shortDescription": "A portrait painting by Leonardo da Vinci, one of the most famous works of art.",
-    "description": "The Mona Lisa is renowned for the enigmatic expression on the subject's face and the atmospheric quality of the background. It has been part of the Louvre collection since 1797.",
+    "description": "The Mona Lisa is one of the most famous and widely recognized paintings in the world. Created by Leonardo da Vinci, it depicts a woman with a mysterious smile, whose expression has intrigued viewers for centuries. The painting is renowned for its subtle shading, lifelike details, and atmospheric background that showcase da Vinci’s mastery of the sfumato technique. The Mona Lisa has been on display at the Louvre in Paris since 1797, where it continues to captivate audiences.",
+    "paintedDate": "1503-1506",
     "image": "van_gogh",
     "rating": 4.8,
     "reviews": 500
   },
   {
     "title": "The Starry Night",
+    "author": "Vincent van Gogh",
     "shortDescription": "A famous painting by Vincent van Gogh, depicting a swirling night sky.",
-    "description": "The Starry Night portrays Van Gogh's view from his asylum room, characterized by the bold brush strokes and the emotional intensity that mark his work.",
+    "description": "The Starry Night is one of Vincent van Gogh's most celebrated works, painted while he was in an asylum in Saint-Rémy-de-Provence. The painting captures the view from his room, with a vibrant, swirling night sky over a peaceful village. Van Gogh's bold brush strokes and unique use of color convey intense emotion, making the painting both visually striking and deeply moving. The Starry Night is widely interpreted as a representation of Van Gogh's turbulent inner state, and it stands as a powerful symbol of his artistic legacy.",
+    "paintedDate": "1889",
     "image": "van_gogh",
     "rating": 4.9,
     "reviews": 750
   },
   {
     "title": "The Persistence of Memory",
+    "author": "Salvador Dalí",
     "shortDescription": "A surreal painting by Salvador Dalí, featuring melting clocks.",
-    "description": "The Persistence of Memory represents the fluidity of time in a dreamlike landscape, and it has become one of the most iconic works of surrealism.",
-    "image": "mona_lisa",
+    "description": "The Persistence of Memory is a surreal masterpiece by Salvador Dalí, known for its melting clocks draped over various objects in a barren landscape. This painting reflects Dalí's fascination with the concept of time and the subconscious mind. The dreamlike composition challenges traditional perceptions of time, suggesting its fluidity and impermanence. Dalí’s distinctive style, with hyper-realistic details set against a surreal landscape, makes The Persistence of Memory an iconic work in the surrealist movement.",
+    "paintedDate": "1931",
+    "image": "test",
     "rating": 4.7,
     "reviews": 430
   },
   {
     "title": "Girl with a Pearl Earring",
+    "author": "Johannes Vermeer",
     "shortDescription": "A famous painting by Johannes Vermeer, often called the 'Mona Lisa of the North.'",
-    "description": "This portrait, painted by Vermeer, captures a girl turning towards the viewer with a captivating expression, highlighted by her luminous pearl earring.",
+    "description": "Girl with a Pearl Earring, painted by Johannes Vermeer, is a striking portrait that captures a young girl turning toward the viewer, her gaze captivating and enigmatic. Known as the 'Mona Lisa of the North,' this painting is celebrated for its use of light and detail, especially in the girl's clothing and the large pearl earring she wears. Vermeer’s delicate brushwork and his mastery of chiaroscuro bring a sense of realism and intimacy to the piece, making it one of his most beloved works.",
+    "paintedDate": "1665",
     "image": "mona_lisa",
     "rating": 4.6,
     "reviews": 600
   },
   {
     "title": "The Scream",
+    "author": "Edvard Munch",
     "shortDescription": "An iconic expressionist painting by Edvard Munch, symbolizing existential angst.",
-    "description": "The Scream depicts a figure holding their face in despair against a turbulent sky, embodying a moment of intense emotion. It has become a powerful symbol of anxiety in modern art.",
+    "description": "The Scream, created by Edvard Munch, is an iconic symbol of modern existential angst. The painting shows a figure with an agonized expression, holding their face in despair, set against a fiery, turbulent sky. Munch's use of swirling lines and bold colors heightens the sense of anxiety and unease, reflecting his own struggles with mental health. This work has become a powerful symbol of human emotion, representing a universal experience of fear and isolation.",
+    "paintedDate": "1893",
     "image": "van_gogh",
     "rating": 4.8,
     "reviews": 580
   },
   {
     "title": "The Night Watch",
+    "author": "Rembrandt",
     "shortDescription": "A masterpiece by Rembrandt, showing a city militia in action.",
-    "description": "The Night Watch is renowned for its large scale and the dramatic use of light and shadow, which brings life to the characters and action of the scene.",
+    "description": "The Night Watch is one of Rembrandt's most famous paintings, depicting a lively scene of a city militia group preparing for action. The painting is remarkable for its dramatic use of light and shadow, known as chiaroscuro, which brings a sense of movement and intensity to the figures. Each character in the painting appears unique and full of life, showcasing Rembrandt’s skill in portraiture and storytelling. The Night Watch remains a masterclass in composition and depth.",
+    "paintedDate": "1642",
     "image": "mona_lisa",
     "rating": 4.5,
     "reviews": 690
   },
   {
     "title": "The Kiss",
+    "author": "Gustav Klimt",
     "shortDescription": "A famous painting by Gustav Klimt, symbolizing love and intimacy.",
-    "description": "The Kiss is known for its lavish use of gold leaf and intricate patterns, portraying an intimate embrace between a couple in a timeless, decorative style.",
-    "image": "mona_lisa",
+    "description": "The Kiss, by Gustav Klimt, is renowned for its opulent use of gold leaf and intricate patterns, depicting a couple in an intimate embrace. The painting combines elements of Art Nouveau and Symbolism, creating a timeless portrayal of love and unity. Klimt’s decorative style, filled with geometric shapes and organic patterns, enhances the sense of romance and warmth, making The Kiss a beloved representation of human connection.",
+    "paintedDate": "1907-1908",
+    "image": "test",
     "rating": 4.9,
     "reviews": 520
   },
   {
     "title": "American Gothic",
+    "author": "Grant Wood",
     "shortDescription": "A painting by Grant Wood, capturing rural American life.",
-    "description": "American Gothic is one of the most famous images of 20th-century American art, featuring a farmer and his daughter against a backdrop of their home, symbolizing resilience and tradition.",
-    "image": "mona_lisa",
+    "description": "American Gothic by Grant Wood is a defining piece of American art, portraying a farmer and his daughter standing in front of a farmhouse. This painting is often interpreted as a symbol of resilience and traditional values in rural America. Wood’s attention to detail and the somber expressions of the characters give the painting a timeless quality, capturing the essence of American life in the 20th century.",
+    "paintedDate": "1930",
+    "image": "test",
     "rating": 4.6,
     "reviews": 480
   },
   {
     "title": "Las Meninas",
+    "author": "Diego Velázquez",
     "shortDescription": "A complex and intriguing painting by Diego Velázquez.",
-    "description": "Las Meninas is celebrated for its composition, featuring a self-portrait of Velázquez within the painting, along with the Spanish royal family, adding layers of intrigue and perspective.",
+    "description": "Las Meninas is a masterpiece by Diego Velázquez, celebrated for its complex composition and the layered perspectives it presents. The painting features Velázquez himself painting the Spanish royal family, adding a self-referential element that has intrigued art critics and historians. With its use of light, shadow, and reflection, Las Meninas blurs the boundaries between artist, subject, and viewer, making it a landmark in the study of visual narrative.",
+    "paintedDate": "1656",
     "image": "van_gogh",
     "rating": 4.7,
     "reviews": 510
   },
   {
     "title": "The Birth of Venus",
+    "author": "Sandro Botticelli",
     "shortDescription": "A renowned Renaissance painting by Sandro Botticelli.",
-    "description": "The Birth of Venus is famous for its depiction of the goddess Venus emerging from the sea, symbolizing beauty and love, and is celebrated for its graceful lines and delicate details.",
+    "description": "The Birth of Venus, painted by Sandro Botticelli, depicts the goddess Venus emerging from the sea on a shell, symbolizing beauty, love, and purity. This Renaissance masterpiece is known for its graceful lines and delicate details, embodying the ideals of classical beauty. The soft color palette and flowing forms capture a sense of tranquility, making it one of the most celebrated works of the Italian Renaissance.",
+    "paintedDate": "1484-1486",
     "image": "mona_lisa",
     "rating": 4.8,
     "reviews": 615
