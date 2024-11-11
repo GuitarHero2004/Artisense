@@ -10,4 +10,6 @@
     <string name="vincent_van_gogh">Vincent Van Gogh</string>
     <string name="famous_art_pieces">Famous Art Pieces</string>
     <string name="art_painted_date">1859</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
