@@ -6,14 +6,13 @@
     android:layout_marginVertical="8dp"
     android:gravity="fill_horizontal"
     android:orientation="horizontal"
-    android:paddingHorizontal="8dp"
-    android:paddingVertical="4dp"
+    android:padding="8dp"
     android:background="@drawable/art_piece_border">
 
     <!-- ImageView for the art piece image -->
     <androidx.cardview.widget.CardView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_marginEnd="8dp"
         android:layout_gravity="center_vertical"
         app:cardCornerRadius="8dp"
@@ -44,9 +43,10 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:text="@string/art_title"
+            android:maxLines="1"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/artAuthor"
@@ -59,7 +59,7 @@
             android:text="@string/vincent_van_gogh"
             android:textColor="@color/black"
             android:textStyle="italic"
-            android:textSize="12sp" />
+            android:textSize="14sp" />
 
         <!-- TextView for the art piece description -->
         <TextView
@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:ellipsize="end"
-            android:maxLines="2"
+            android:maxLines="3"
             android:paddingHorizontal="2dp"
             android:text="@string/art_short_description"
             android:textColor="#666"

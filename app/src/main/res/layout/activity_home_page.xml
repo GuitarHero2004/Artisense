@@ -18,7 +18,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="48dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
@@ -28,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="@string/artisense"
+            android:text="@string/artiSense"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textStyle="bold|italic"
@@ -42,7 +44,7 @@
             android:backgroundTint="#4A3E3E"
             android:text="@string/enter"
             android:textColor="@android:color/white"
-            android:textSize="24sp" />
+            android:textSize="32sp" />
 
     </LinearLayout>
 
