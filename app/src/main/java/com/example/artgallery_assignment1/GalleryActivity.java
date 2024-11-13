@@ -1,94 +1,63 @@
 package com.example.artgallery_assignment1;
 
-import android.content.Intent;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.util.Log;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.fragment.app.Fragment;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonSyntaxException;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.Arrays;
+public class GalleryActivity extends AppCompatActivity {
 
-public class GalleryActivity extends AppCompatActivity implements ArtPieceAdapter.OnArtPieceClickListener {
-
-    private ArrayList<ArtPieceModel> artPieces;
-
+    @SuppressLint("NonConstantResourceId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery_view);
 
-        RecyclerView recyclerView = findViewById(R.id.recyclerGalleryView);
+        // Initialize the Bottom Navigation
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
 
-        // Load the art pieces from the JSON
-        artPieces = loadArtPiecesFromJson();
+        // Set initial fragment to Famous Art if no saved instance state
+        if (savedInstanceState == null) {
+            replaceFragment(new FamousArtFragment());
+        }
 
-        ArtPieceAdapter adapter = new ArtPieceAdapter(this, artPieces, this);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setAdapter(adapter);
-    }
+        // Set up Bottom Navigation listener
+        bottomNav.setOnItemSelectedListener(item -> {
+            Fragment selectedFragment;
+            int itemId = item.getItemId();
 
-    private ArrayList<ArtPieceModel> loadArtPiecesFromJson() {
-        ArrayList<ArtPieceModel> artPieces = new ArrayList<>();
-
-        try (InputStream inputStream = getAssets().open("art-pieces.json")) {
-            String json = convertStreamToString(inputStream);
-            Log.d("GalleryView", "Loaded JSON: " + json);
-
-            // Parse the JSON into ArtPieceModel array
-            Gson gson = new Gson();
-            ArtPieceModel[] artPiecesArray = gson.fromJson(json, ArtPieceModel[].class);
-
-            if (artPiecesArray != null) {
-                artPieces.addAll(Arrays.asList(artPiecesArray));
+            // Choose the fragment based on selected item
+            if (itemId == R.id.famous_art) {
+                selectedFragment = new FamousArtFragment();
+            } else if (itemId == R.id.favorites) {
+                selectedFragment = new FavoriteArtFragment();
             } else {
-                Log.e("GalleryView", "Error: Parsed array is null.");
+                return false;
             }
-        } catch (IOException e) {
-            Log.e("GalleryView", "Error reading JSON file", e);
-        } catch (JsonSyntaxException e) {
-            Log.e("GalleryView", "Error parsing JSON", e);
+
+            // Replace fragment only if it’s not already displayed
+            replaceFragment(selectedFragment);
+            return true;
+        });
+    }
+
+    /**
+     * Replaces the current fragment with the specified fragment.
+     * Checks if the new fragment is different from the current one.
+     */
+    private void replaceFragment(@NonNull Fragment fragment) {
+        Fragment currentFragment = getSupportFragmentManager().findFragmentById(R.id.gallery_fragment_container);
+
+        if (currentFragment != null && currentFragment.getClass().equals(fragment.getClass())) {
+            return; // Avoid redundant fragment replacements
         }
 
-        return artPieces;
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.gallery_fragment_container, fragment)
+                .commit();
     }
-
-
-    private String convertStreamToString(InputStream is) throws IOException {
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8))) {
-            StringBuilder sb = new StringBuilder();
-            String line;
-            while ((line = reader.readLine()) != null) {
-                sb.append(line).append("\n");
-            }
-            return sb.toString();
-        }
-    }
-
-
-
-    @Override
-    public void onArtPieceClick(int position) {
-        ArtPieceModel selectedArtPiece = artPieces.get(position);
-
-        // Convert the selected ArtPieceModel to JSON
-        String artPieceJson = new Gson().toJson(selectedArtPiece);
-
-        // Pass data to the detailed view using Intent
-//        Intent intent = new Intent(this, ArtPieceDetailView.class);
-        Intent intent = new Intent(this, ArtPieceDetailActivity.class);
-        intent.putExtra("artPiece", artPieceJson);
-        startActivity(intent);
-    }
-
 }
