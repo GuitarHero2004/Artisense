@@ -17,6 +17,8 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 
+import java.util.Objects;
+
 public class DetailTabFragment extends Fragment {
 
     @SuppressLint("SetTextI18n")
@@ -26,7 +28,7 @@ public class DetailTabFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_detail_tab, container, false);
 
         // Retrieve JSON data
-        String artPieceJson = getActivity().getIntent().getStringExtra("artPiece");
+        String artPieceJson = requireActivity().getIntent().getStringExtra("artPiece");
 
         if (artPieceJson != null) {
             ArtPieceModel artPiece = new Gson().fromJson(artPieceJson, ArtPieceModel.class);
@@ -35,7 +37,7 @@ public class DetailTabFragment extends Fragment {
             TextView descriptionTextView = view.findViewById(R.id.artDescription);
             TextView authorTextView = view.findViewById(R.id.artAuthor);
             TextView paintedDateTextView = view.findViewById(R.id.artPaintedDate);
-            ImageView artImageView = view.findViewById(R.id.artImage);
+            ImageView artImageView = view.findViewById(R.id.artDetailImage);
 
             titleTextView.setText(artPiece.getTitle());
             descriptionTextView.setText(artPiece.getDescription());
