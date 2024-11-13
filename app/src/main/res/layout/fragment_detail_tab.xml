@@ -14,24 +14,27 @@
         android:layout_gravity="center_horizontal"
         android:paddingVertical="8dp"
         android:paddingHorizontal="8dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="0dp">
+            app:cardElevation="0dp"
+            android:layout_gravity="center">
 
             <ImageView
-                android:id="@+id/artImage"
+                android:id="@+id/artDetailImage"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
                 android:layout_gravity="center_vertical"
+                android:adjustViewBounds="false"
                 android:src="@drawable/fintechlogo" />
 
         </androidx.cardview.widget.CardView>
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,7 +50,7 @@
                 android:text="@string/art_title"
                 android:gravity="start"
                 android:textColor="@color/black"
-                android:textSize="24sp"
+                android:textSize="32sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -59,7 +62,7 @@
                 android:text="@string/art_author"
                 android:gravity="start"
                 android:textColor="@color/grey"
-                android:textSize="18sp"
+                android:textSize="24sp"
                 android:textStyle="italic"/>
 
             <TextView
@@ -71,7 +74,7 @@
                 android:text="@string/art_painted_date"
                 android:gravity="start"
                 android:textColor="@color/grey"
-                android:textSize="18sp"
+                android:textSize="24sp"
                 android:textStyle="italic"/>
 
         </LinearLayout>

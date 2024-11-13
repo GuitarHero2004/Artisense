@@ -1,26 +1,55 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:gravity="start"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="8dp">-->
+
+<!--    &lt;!&ndash; TextView above RecyclerView &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/galleryViewTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="@string/famous_art_pieces"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="36sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <SearchView-->
+<!--        android:id="@+id/searchView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:queryHint="Search by Author"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:background="@drawable/art_piece_border" />-->
+
+<!--    &lt;!&ndash; RecyclerView below the TextView &ndash;&gt;-->
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recyclerGalleryView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:paddingVertical="4dp" />-->
+
+<!--</LinearLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="start"
-    android:orientation="vertical"
-    android:padding="8dp">
+    android:layout_height="match_parent">
 
-    <!-- TextView above RecyclerView -->
-    <TextView
-        android:id="@+id/galleryViewTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:text="@string/famous_art_pieces"
-        android:textColor="@color/black"
-        android:textSize="36sp"
-        android:textStyle="bold" />
-
-    <!-- RecyclerView below the TextView -->
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerGalleryView"
+    <!-- Fragment Container for displaying selected fragment -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/gallery_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingVertical="4dp" />
+        android:layout_above="@+id/bottom_navigation" />
 
-</LinearLayout>
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navbar" />
+</RelativeLayout>

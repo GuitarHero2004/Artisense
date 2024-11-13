@@ -41,7 +41,7 @@
             android:id="@+id/startBtn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:backgroundTint="#4A3E3E"
+            android:backgroundTint="@color/brown"
             android:text="@string/enter"
             android:textColor="@android:color/white"
             android:textSize="32sp" />

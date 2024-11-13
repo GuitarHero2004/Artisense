@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/famous_art"
+        android:icon="@drawable/famous_art_list"
+        android:title="@string/famous_art_pieces" />
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/favorites"
+        android:title="@string/favorites" />
+</menu>
