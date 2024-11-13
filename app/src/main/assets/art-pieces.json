@@ -98,5 +98,35 @@
     "image": "mona_lisa",
     "rating": 4.8,
     "reviews": 615
+  },
+  {
+    "title": "The Last Supper",
+    "author": "Leonardo da Vinci",
+    "shortDescription": "A renowned mural painting depicting Jesus' final meal with his disciples.",
+    "description": "The Last Supper, painted by Leonardo da Vinci between 1495 and 1498, is one of the most famous artworks of the Renaissance period. This mural captures a pivotal moment: when Jesus reveals to his twelve disciples that one of them will betray him. Set within a dining room with depth created by precise perspective, the composition places Jesus in the center, with his disciples around him, each displaying their unique emotional response to the shocking announcement. \n\nLeonardo’s use of perspective was groundbreaking for its time, drawing viewers' attention directly to Jesus at the focal point. The painting captures a range of expressions—from shock and anger to sadness—showing each disciple’s reaction through detailed gestures and facial expressions. The attention to detail, combined with the emotional weight of the scene, invites viewers to empathize with each figure.\n\nOne of the painting's most notable aspects is the use of natural lighting and shadow to create realism. Leonardo applied a technique called chiaroscuro, creating a play of light and dark that enhances the depth of each figure and gives the painting an almost three-dimensional effect. The scene appears to be frozen in time, and the tension in the moment is palpable.\n\nSince its completion, The Last Supper has inspired countless interpretations and analyses. Scholars and art enthusiasts continue to be fascinated by its symbolic elements and the mystery surrounding some of its details. Today, it stands as an enduring masterpiece, reflecting both Leonardo’s genius and the Renaissance's dedication to combining science, art, and religious themes.",
+    "paintedDate": "1495-1498",
+    "image": "the_last_supper",
+    "rating": 4.9,
+    "reviews": 1200
+  },
+  {
+    "title": "Guernica",
+    "author": "Pablo Picasso",
+    "shortDescription": "A powerful anti-war mural by Picasso, depicting the horrors of the Spanish Civil War.",
+    "description": "Guernica, painted in 1937 by Pablo Picasso, is a monumental piece and one of the most powerful anti-war statements in art history. Created in response to the bombing of the Spanish town of Guernica during the Spanish Civil War, this black-and-white mural captures the pain, chaos, and devastation of war. Picasso’s cubist style emphasizes fragmented figures, contorted faces, and symbolic imagery, conveying the trauma and anguish of the people affected by this tragedy.\n\nThe painting’s monochromatic palette enhances the rawness of the scene, stripping it of color to convey a stark, grim reality. Picasso employs distorted figures—a screaming mother holding her dead child, a fallen soldier, a terrified horse—to illustrate the indiscriminate suffering inflicted by war. This absence of natural forms and colors serves to universalize the tragedy, making it not only about Guernica but about all victims of violence and conflict.\n\nSymbolism is embedded throughout the work. The bull and horse, traditional Spanish icons, have been interpreted as representations of brutality and suffering, respectively. The light bulb above, resembling an eye, is often seen as a critique of technological advancements in warfare, symbolizing the artificial and destructive power of modern weaponry.\n\nGuernica remains one of the most iconic symbols of the anti-war movement. Displayed in the United Nations and other venues, it continues to resonate with audiences around the world, serving as a reminder of the horrors of war and the resilience of the human spirit.",
+    "paintedDate": "1937",
+    "image": "guernica",
+    "rating": 4.8,
+    "reviews": 1050
+  },
+  {
+    "title": "American Gothic",
+    "author": "Grant Wood",
+    "shortDescription": "An iconic American painting depicting a stern farmer and his daughter.",
+    "description": "American Gothic, painted by Grant Wood in 1930, is one of the most recognizable pieces in American art. The painting depicts a stern-looking farmer holding a pitchfork, standing beside a young woman—often assumed to be his daughter—against the backdrop of a simple Gothic-style farmhouse. The models for this work were Wood's sister and his dentist, whose expressions of seriousness and resilience give the piece a sense of dignity and strength.\n\nWood's attention to detail and use of realism capture both the simplicity and the gravity of rural American life. The farmer’s stoic expression and the young woman’s solemn gaze reflect the harsh realities of life during the Great Depression, a time when many Americans were struggling to make ends meet. The Gothic window in the farmhouse, symbolizing traditional values, contrasts with the modern realities facing rural communities.\n\nThe painting has been interpreted both as a tribute to and a satire of the American Midwest. Some view it as a celebration of hard work and tradition, while others see it as a critique of rural conservatism and rigidity. The ambiguity of the characters' expressions leaves room for various interpretations, making it a subject of ongoing debate and fascination.\n\nSince its creation, American Gothic has become a cultural icon, frequently parodied and referenced in popular culture. Its timeless representation of resilience and solemnity has made it a symbol of the American spirit, continuing to resonate with audiences around the world.",
+    "paintedDate": "1930",
+    "image": "american_gothic",
+    "rating": 4.7,
+    "reviews": 880
   }
 ]
