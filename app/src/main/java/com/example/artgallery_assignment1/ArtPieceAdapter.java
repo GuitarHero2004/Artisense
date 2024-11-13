@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -19,12 +18,14 @@ import java.util.ArrayList;
 public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPieceViewHolder> {
 
     private final Context context;
-    private final ArrayList<ArtPieceModel> artPieces;
+    private ArrayList<ArtPieceModel> artPieces;
+    private final ArrayList<ArtPieceModel> allArtPieces;
     private final OnArtPieceClickListener onArtPieceClickListener;
 
     public ArtPieceAdapter(Context context, ArrayList<ArtPieceModel> artPieces, OnArtPieceClickListener listener) {
         this.context = context;
-        this.artPieces = artPieces;
+        this.artPieces = new ArrayList<>(artPieces);
+        this.allArtPieces = new ArrayList<>(artPieces);
         this.onArtPieceClickListener = listener;
     }
 
@@ -34,6 +35,10 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
         // Inflate the item layout
         View itemView = LayoutInflater.from(context).inflate(R.layout.activity_art_piece, parent, false);
         return new ArtPieceViewHolder(itemView, onArtPieceClickListener);
+    }
+
+    public ArrayList<ArtPieceModel> getArtPieces() {
+        return artPieces;
     }
 
     @SuppressLint("SetTextI18n")
@@ -102,6 +107,23 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
                 onArtPieceClickListener.onArtPieceClick(getAdapterPosition());
             }
         }
+    }
+
+    // Filter method
+    @SuppressLint("NotifyDataSetChanged")
+    public void filterByAuthor(String query) {
+        if (query.isEmpty()) {
+            artPieces = new ArrayList<>(allArtPieces);
+        } else {
+            ArrayList<ArtPieceModel> filteredList = new ArrayList<>();
+            for (ArtPieceModel artPiece : allArtPieces) {
+                if (artPiece.getAuthor().toLowerCase().contains(query.toLowerCase())) {
+                    filteredList.add(artPiece);
+                }
+            }
+            artPieces = filteredList;
+        }
+        notifyDataSetChanged();
     }
 
     // Interface for item click handling
