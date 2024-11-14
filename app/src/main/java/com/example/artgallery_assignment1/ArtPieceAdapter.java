@@ -111,13 +111,14 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
 
     // Filter method
     @SuppressLint("NotifyDataSetChanged")
-    public void filterByAuthor(String query) {
+    public void filterByQuery(String query) {
         if (query.isEmpty()) {
             artPieces = new ArrayList<>(allArtPieces);
         } else {
             ArrayList<ArtPieceModel> filteredList = new ArrayList<>();
             for (ArtPieceModel artPiece : allArtPieces) {
-                if (artPiece.getAuthor().toLowerCase().contains(query.toLowerCase())) {
+                if (artPiece.getAuthor().toLowerCase().contains(query.toLowerCase()) ||
+                        artPiece.getTitle().toLowerCase().contains(query.toLowerCase())) {
                     filteredList.add(artPiece);
                 }
             }
@@ -125,6 +126,8 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
         }
         notifyDataSetChanged();
     }
+
+
 
     // Interface for item click handling
     public interface OnArtPieceClickListener {
