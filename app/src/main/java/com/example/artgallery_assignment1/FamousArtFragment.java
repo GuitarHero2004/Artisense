@@ -40,7 +40,7 @@ public class FamousArtFragment extends Fragment implements ArtPieceAdapter.OnArt
 
         RecyclerView recyclerView = view.findViewById(R.id.recyclerGalleryView);
         SearchView searchView = view.findViewById(R.id.searchView);
-        searchView.setQueryHint("Search by Author");
+        searchView.setQueryHint("Search by Title or Author...");
         searchView.setIconified(false);
         searchView.clearFocus();
 
@@ -56,13 +56,13 @@ public class FamousArtFragment extends Fragment implements ArtPieceAdapter.OnArt
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
-                adapter.filterByAuthor(query);
+                adapter.filterByQuery(query);
                 return false;
             }
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                adapter.filterByAuthor(newText);
+                adapter.filterByQuery(newText);
                 return false;
             }
         });
