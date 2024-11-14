@@ -7,7 +7,10 @@
     "paintedDate": "1503-1506",
     "image": "mona_lisa",
     "rating": 4.8,
-    "reviews": 500
+    "reviews": 500,
+    "style": "High Renaissance",
+    "technique": "Oil on poplar panel",
+    "genre": "Portrait"
   },
   {
     "title": "The Starry Night",
@@ -15,9 +18,12 @@
     "shortDescription": "A famous painting by Vincent van Gogh, depicting a swirling night sky.",
     "description": "The Starry Night is one of Vincent van Gogh's most celebrated and iconic works, painted during his time at an asylum in Saint-Rémy-de-Provence in 1889. This masterpiece depicts a serene village under a dynamic and turbulent night sky, offering a vivid contrast between the calmness of the sleeping town and the intensity of the swirling stars above. The swirling patterns and bold brushstrokes convey a sense of motion and emotion, making the scene come alive in a way that few paintings can. \n\nThe painting’s bold use of color and dramatic contrasts between the deep blues of the night sky and the golden yellows of the stars evoke a sense of unease and beauty, reflecting the artist’s emotional turmoil and inner struggles. Van Gogh’s signature brushstroke technique, visible in the swirling clouds and the rolling hills, creates a rhythmic flow that guides the viewer’s eye across the canvas, enhancing the painting’s dreamlike quality. The glowing moon and stars seem almost alive, casting a supernatural light over the landscape, while the church steeple towers over the village, grounding the viewer in a sense of stillness amidst the chaos. \n\nVan Gogh’s turbulent inner state is widely interpreted in the depiction of the night sky—each brushstroke is charged with his psychological and emotional depth. The restless sky is said to represent his struggle with mental illness, while the calm village below suggests a longing for peace and stability. This duality within the painting is one of the reasons it is so deeply moving and relatable to viewers. \n\nToday, The Starry Night remains one of the most beloved and studied works of art, a symbol of Van Gogh’s legacy, and a powerful expression of his emotional journey. Its beauty and intensity continue to captivate audiences worldwide, making it a timeless testament to the artist’s genius and his ability to communicate the depths of human experience through his art.",
     "paintedDate": "1889",
-    "image": "van_gogh",
+    "image": "starry_night",
     "rating": 4.9,
-    "reviews": 750
+    "reviews": 750,
+    "style": "Post-Impressionism",
+    "technique": "Oil on canvas",
+    "genre": "Landscape"
   },
   {
     "title": "The Persistence of Memory",
@@ -25,9 +31,12 @@
     "shortDescription": "A surreal painting by Salvador Dalí, featuring melting clocks.",
     "description": "The Persistence of Memory is a surreal and thought-provoking masterpiece by the renowned Spanish artist Salvador Dalí. Painted in 1931, the work is one of Dalí's most iconic pieces, instantly recognizable for its depiction of melting clocks draped over trees, a strange figure, and a desolate, barren landscape. The melting clocks symbolize Dalí's deep fascination with the concept of time and its elasticity, inviting the viewer to question the conventional, rigid understanding of time as a fixed and linear force. The clocks appear to be soft, almost liquid, slipping and bending over various objects, which creates a striking contrast against the harsh, angular landscape that is typically associated with the rigidity of time. \n\nDalí's choice to depict time as a malleable and fluid element reflects his exploration of the subconscious mind, dreams, and the nature of reality. The scene suggests a world where the laws of time and space no longer apply, with clocks becoming distorted and losing their traditional function. This surreal quality is amplified by the barren, almost desolate environment, which is eerily still and lifeless. There are few human elements in the painting, other than the distant, blurred figure, further contributing to the feeling of isolation and unreality. \n\nDalí's trademark hyper-realistic style, which is evident in the meticulously painted details, creates a haunting juxtaposition between the realistic depiction of the landscape and the irrational nature of the scene. The cliffs in the background and the soft, curving shape of the clocks are executed with such precision that they appear almost photographic, intensifying the sense of disorientation. The barren landscape, with its dead tree and decayed elements, evokes a sense of timelessness and decay, reinforcing the theme of impermanence. \n\nThe Persistence of Memory continues to captivate and intrigue audiences, as it challenges the viewer to reconsider the way they perceive time and reality. It serves as a brilliant representation of Dalí's ability to blend the logical with the absurd, creating a vision that is both unsettling and compelling. The painting remains a cornerstone of the surrealist movement and continues to be a source of inspiration for artists, philosophers, and psychologists alike, with its exploration of the subconscious mind and the elasticity of time.",
     "paintedDate": "1931",
-    "image": "test",
+    "image": "persistence_of_memory",
     "rating": 4.7,
-    "reviews": 430
+    "reviews": 430,
+    "style": "Surrealism",
+    "technique": "Oil on canvas",
+    "genre": "Surrealism"
   },
   {
     "title": "Girl with a Pearl Earring",
@@ -37,7 +46,10 @@
     "paintedDate": "1665",
     "image": "girl_with_a_pearl_earring",
     "rating": 4.6,
-    "reviews": 390
+    "reviews": 390,
+    "style": "Baroque",
+    "technique": "Oil on canvas",
+    "genre": "Portrait"
   },
   {
     "title": "The Scream",
@@ -45,9 +57,12 @@
     "shortDescription": "An iconic expressionist painting by Edvard Munch, symbolizing existential angst.",
     "description": "The Scream, painted by the Norwegian artist Edvard Munch in 1893, is one of the most recognizable and powerful symbols of existential angst in modern art. The painting features a figure standing on a bridge, their face contorted in an agonized expression, hands pressed to their cheeks, as they scream in a moment of profound distress. This figure stands against a backdrop of a swirling, fiery sky, which appears to pulse with intense emotion, amplifying the sense of dread and isolation. \n\nThe composition of the painting is marked by Munch’s use of bold, exaggerated lines and vibrant, unsettling colors that seem to distort the natural world. The swirling sky, which dominates the upper portion of the canvas, is painted in intense reds, oranges, and yellows, as though the world around the figure is erupting in chaos. The figure itself, with its wide-open mouth and hollow eyes, seems to embody an inner turmoil so deep that it is almost tangible. The background, with its undulating waves and distorted forms, enhances the sense of instability, both in the figure’s mind and in the world around them. \n\nMunch's innovative use of color and form conveys the emotional intensity of the scene, immersing the viewer in a visceral sense of anxiety and unease. The brushstrokes, vigorous and uncontrolled, further enhance the feeling of disintegration and psychological distress. The figure’s scream, which seems to resonate with the surrounding landscape, symbolizes the universal experience of fear, existential dread, and mental anguish. \n\nThe symbolism behind The Scream is deeply personal for Munch, who struggled with his own mental health issues and personal tragedies throughout his life. The image is said to reflect Munch’s own feelings of alienation, as he famously described the inspiration for the painting in a diary entry: ‘I was walking along the road with two friends – the sun was setting – suddenly the sky turned blood red – and I paused, feeling exhausted, and leaned on the fence – there was blood and tongues of fire above the blue-black fjord and the city – my friends walked on, and I stood there trembling with anxiety – and I sensed an endless scream passing through nature.’ \n\nSince its creation, The Scream has become an iconic representation of modern anxiety and the human condition, resonating with anyone who has experienced a sense of profound isolation, fear, or existential despair. It has transcended its origins as a reflection of Munch’s personal struggles to become a global symbol of emotional vulnerability, representing the universal human experience of confronting one’s inner demons. The work continues to evoke powerful emotions in viewers, standing as a testament to the potency of visual art in expressing the complex and often painful facets of the human psyche.",
     "paintedDate": "1893",
-    "image": "van_gogh",
+    "image": "the_scream",
     "rating": 4.8,
-    "reviews": 580
+    "reviews": 580,
+    "style": "Expressionism",
+    "technique": "Oil, tempera, and pastel on cardboard",
+    "genre": "Symbolism"
   },
   {
     "title": "The Night Watch",
@@ -55,9 +70,12 @@
     "shortDescription": "A masterpiece by Rembrandt, showing a city militia in action.",
     "description": "The Night Watch, painted by the Dutch master Rembrandt van Rijn in 1642, is one of the most celebrated and iconic works of the Baroque period. The painting depicts a dynamic scene of a city militia group preparing for action, set in the heart of Amsterdam. Unlike traditional group portraits, which typically present subjects in a static, formal pose, Rembrandt infuses The Night Watch with a sense of movement and energy that makes the composition feel alive and full of purpose. \n\nAt the center of the composition is Captain Frans Banning Cocq, leading his militia with a raised arm, signaling to his men. His second-in-command, Lieutenant Willem van Ruytenburch, stands beside him, also captured in mid-action. The figures surrounding them are in varying stages of motion, some adjusting their gear, others looking towards the viewer or into the distance, preparing for a mission. This sense of animation is enhanced by the dramatic play of light and shadow, with Rembrandt’s masterful use of chiaroscuro lending the figures a lifelike quality. The light seems to burst forth from the center, illuminating the captain and lieutenant, while casting the surrounding figures into shadow, creating a striking contrast that enhances the depth and drama of the scene. \n\nThe composition itself is remarkable for its unconventional arrangement. Instead of aligning the subjects in a traditional, orderly fashion, Rembrandt places them in a more dynamic, almost chaotic formation. The figures appear to spill out from the center, with some seemingly in the act of stepping forward, while others are frozen in mid-movement. This gives the painting a sense of urgency and vitality, as though we are witnessing a fleeting moment in time. The characters are depicted with remarkable individuality, each one brought to life through Rembrandt's exquisite attention to detail and his mastery of light and texture. Each face is unique, and the expressions captured convey the varying personalities and emotions of the militia members. \n\nOne of the most striking features of The Night Watch is the way Rembrandt uses light to direct the viewer’s attention. The captain and lieutenant are bathed in a warm, golden glow, while the rest of the figures are shrouded in shadow, emphasizing their role as secondary characters in the scene. This technique not only creates a dramatic visual effect but also serves to highlight the importance of the central figures, underscoring their leadership and authority. \n\nThe background of the painting further contributes to its sense of action and narrative. The dark shadows and distant architecture suggest the impending movement of the militia as they prepare to take action. The figures are also outfitted with an array of weapons, flags, and armor, emphasizing their readiness for battle. The attention to detail, from the intricate textures of the clothing to the glint of metal on the armor, showcases Rembrandt’s unparalleled skill in portraiture. \n\nSince its creation, The Night Watch has remained one of the most admired paintings in the world, celebrated for its innovation, technical brilliance, and dramatic storytelling. It is widely regarded as a masterpiece of composition and depth, with Rembrandt’s groundbreaking approach to group portraiture and use of light setting the work apart from traditional paintings of its time. The painting continues to captivate viewers with its energy, bringing to life a moment of history while demonstrating Rembrandt’s profound understanding of human emotion and movement.",
     "paintedDate": "1642",
-    "image": "mona_lisa",
+    "image": "the_night_watch",
     "rating": 4.5,
-    "reviews": 690
+    "reviews": 690,
+    "style": "Baroque",
+    "technique": "Oil on canvas",
+    "genre": "Group Portrait"
   },
   {
     "title": "The Kiss",
@@ -65,9 +83,12 @@
     "shortDescription": "A famous painting by Gustav Klimt, symbolizing love and intimacy.",
     "description": "The Kiss, painted by the Austrian artist Gustav Klimt in 1907-1908, is one of the most iconic works of the Art Nouveau movement and a masterpiece of symbolic and decorative art. The painting captures an intimate and tender moment between a couple locked in a passionate embrace, their faces hidden in a kiss, surrounded by an ethereal, golden background. Klimt's distinctive use of gold leaf, along with his intricate patterns and textures, makes The Kiss an opulent and visually striking piece that exudes warmth and sensuality. \n\nThe couple in The Kiss is portrayed in an embrace that is both sensual and serene, their bodies draped in golden robes adorned with intricate geometric shapes and flowing organic patterns. The figures are not individualized but rather seem to merge with one another, symbolizing unity and the transcendence of individual identities in love. The gold leaf, which Klimt used extensively throughout his career, envelops the figures in a shimmering, almost otherworldly glow, creating a sense of spiritual elevation and emotional intensity. The radiant golden aura surrounding the couple contrasts with the muted, darker tones of the ground beneath them, highlighting their connection as the central focus of the composition. \n\nKlimt’s innovative use of gold leaf was influenced by Byzantine mosaics, which he encountered during his travels to Italy. This technique, combined with his mastery of decorative patterns, transformed the painting into a lush, tactile experience. The use of intricate, flowing patterns on the couple's robes, combined with the background's shimmering gold, evokes the notion of love as both eternal and divine. The painting’s flatness, devoid of traditional perspective, enhances the ornamental effect, transforming the couple into almost mythical figures whose embrace seems to transcend the ordinary world. \n\nThe blend of Art Nouveau and Symbolism in The Kiss adds layers of meaning to the painting, with its focus on sensuality, love, and the emotional connection between the two figures. The flowing lines and decorative elements within the composition create a dreamlike atmosphere, emphasizing the ethereal, almost sacred nature of love and intimacy. Klimt's meticulous attention to detail in the robes and the background patterns underscores his ability to merge decorative art with emotional depth. \n\nThe Kiss is often interpreted as a visual representation of the union of two souls, where the boundaries between the lovers dissolve into one harmonious, golden whole. Their embrace represents a complete surrender to love and the merging of two beings into a single, transcendent experience. The intricate patterns on their robes symbolize the different layers of their relationship—woven together with care and intimacy. \n\nSince its creation, The Kiss has become one of Klimt’s most beloved works, celebrated for its exquisite craftsmanship, symbolic richness, and timeless portrayal of love. The painting is a testament to Klimt’s unique ability to combine decorative beauty with profound emotional resonance, making The Kiss not only a symbol of romantic love but also a work of art that continues to inspire admiration for its sensuality and depth.",
     "paintedDate": "1907-1908",
-    "image": "test",
+    "image": "the_kiss",
     "rating": 4.9,
-    "reviews": 520
+    "reviews": 520,
+    "style": "Art Nouveau",
+    "technique": "Oil and gold leaf on canvas",
+    "genre": "Symbolism"
   },
   {
     "title": "American Gothic",
@@ -75,9 +96,12 @@
     "shortDescription": "A painting by Grant Wood, capturing rural American life.",
     "description": "American Gothic, painted by Grant Wood in 1930, is one of the most recognizable and iconic works of American art. The painting depicts a stoic farmer and his daughter standing in front of a simple farmhouse, with a pitchfork in the farmer’s hand. The austere expressions on their faces, coupled with the crisp lines and meticulous detail of the scene, convey a sense of quiet dignity and resolve. The figures' strong, angular features are set against the backdrop of the Gothic-style house, which provides a contrast between the human figures and the architectural structure. \n\nWood's use of precision and detail in the painting emphasizes the steadfastness of rural America during the Great Depression, when the country faced economic hardships and social upheaval. The figures of the farmer and his daughter are often seen as symbols of resilience, representing the hardworking, independent spirit of America's heartland. Their solemn expressions reflect the difficult realities of rural life, yet also speak to the pride and endurance that defined these communities during a time of widespread struggle. \n\nThe painting’s title, American Gothic, references the Gothic-style window of the farmhouse, which mirrors the formal, almost rigid posture of the two characters. The window itself symbolizes a link between the past and the present, with its pointed arches reminiscent of medieval architecture, suggesting a connection to the long-standing traditions of rural America. This architectural detail is often seen as a metaphor for the steadfast values that have withstood the test of time. \n\nWood’s choice of subject matter, which centers on the working class, was a departure from the more romanticized depictions of rural life that were common at the time. Instead of focusing on idealized portraits of farmers, Wood presents a more realistic and, at times, unflattering view of rural America. The stiff posture of the figures and their unemotional expressions suggest a sense of stoicism, while their matching, somewhat austere clothing reinforces the idea of traditional, no-nonsense American values. \n\nAmerican Gothic has been interpreted in various ways over the years. Some view it as a commentary on the strength and resilience of rural America, while others see it as a critique of the rigidity and conservatism associated with rural life. Despite these varying interpretations, the painting remains a powerful and enduring image of American identity, capturing the essence of life in the Midwest during the early 20th century. Wood's meticulous attention to detail and the careful composition of the piece give it a sense of permanence, allowing it to transcend its time and become a symbol of both the hardships and the enduring spirit of America. \n\nThe painting has also become an emblem of American culture, widely recognized and referenced in popular media, advertisements, and art history discussions. Its enduring popularity speaks to its ability to capture a moment in American history with such clarity and precision that it continues to resonate with viewers today. American Gothic stands as a testament to Grant Wood's unique artistic vision and his ability to encapsulate the complexity of American life in a single, powerful image.",
     "paintedDate": "1930",
-    "image": "test",
+    "image": "american_gothic",
     "rating": 4.6,
-    "reviews": 480
+    "reviews": 480,
+    "style": "Regionalism",
+    "technique": "Oil on beaverboard",
+    "genre": "Portrait"
   },
   {
     "title": "Las Meninas",
@@ -85,19 +109,25 @@
     "shortDescription": "A complex and intriguing painting by Diego Velázquez.",
     "description": "Las Meninas, painted by Diego Velázquez in 1656, is one of the most celebrated and studied paintings in the history of art. The painting depicts a complex scene in the court of King Philip IV of Spain, featuring the Spanish royal family, their attendants, and Velázquez himself. At the heart of the composition, the young Infanta Margaret Theresa is surrounded by her entourage of ladies-in-waiting, chaperones, and a dog. Velázquez places himself in the scene, painting the royal family, creating a self-referential element that invites viewers to question the relationship between the artist, the subject, and the viewer. \n\nThe painting is renowned for its sophisticated use of perspective, light, and shadow. The positioning of the figures, the use of mirrors, and the interplay between foreground and background create a sense of depth and movement, drawing the viewer’s eye across the canvas. Velázquez’s skillful manipulation of light, particularly the way it illuminates the figures and the room, adds an almost photographic realism to the work, enhancing its sense of immediacy and intimacy. \n\nOne of the most striking features of Las Meninas is its layered perspective. The scene unfolds not only in the physical space depicted but also in the reflective surfaces within the painting. A mirror at the back of the room reflects the image of the king and queen, suggesting their presence just outside the frame. This reflection, along with the positioning of Velázquez’s easel and the royal family, creates a dynamic dialogue between the viewer, the painting, and the figures within it. The viewer is placed in the position of the royal family, adding a unique sense of participation to the viewing experience. \n\nThe self-referential nature of Las Meninas has intrigued art critics and historians for centuries. Velázquez’s inclusion of himself within the scene, not only as an observer but as an active participant in the act of painting, challenges traditional notions of authorship and the role of the artist. By portraying himself in the act of painting the royal family, Velázquez elevates the status of the artist, suggesting that the act of creation itself is as important as the subject matter. This subtle commentary on the role of the artist in society makes the painting a profound statement on art and its relationship to power, perception, and reality. \n\nLas Meninas also challenges traditional notions of space and viewer engagement. The painting is not merely a portrait of the royal family but a commentary on the act of seeing and being seen. The various figures in the painting, from the princess to the court attendants, seem to be aware of the viewer, with some even making direct eye contact. This creates a sense of interaction between the viewer and the figures within the painting, further emphasizing the blurring of boundaries between the artwork and its audience. \n\nThe painting’s composition and the use of light and shadow have inspired countless interpretations and discussions. Some scholars see Las Meninas as a commentary on the complexities of royal life, while others interpret it as a meditation on the nature of perception, representation, and reality. Its influence on the development of Western art is immeasurable, with its innovative use of space and perspective paving the way for future generations of artists. \n\nToday, Las Meninas hangs in the Museo del Prado in Madrid, where it continues to captivate viewers with its enigmatic portrayal of the Spanish court and its revolutionary approach to the art of painting. The painting’s ability to engage with the viewer on multiple levels—both through its visual narrative and its complex commentary on art and society—ensures its place as one of the most important and influential works in the history of art.",
     "paintedDate": "1656",
-    "image": "van_gogh",
+    "image": "las_meninas",
     "rating": 4.7,
-    "reviews": 510
+    "reviews": 510,
+    "style": "Baroque",
+    "technique": "Oil on canvas",
+    "genre": "Portrait"
   },
   {
     "title": "The Birth of Venus",
     "author": "Sandro Botticelli",
-    "shortDescription": "A renowned Renaissance painting by Sandro Botticelli.",
-    "description": "The Birth of Venus, painted by Sandro Botticelli, depicts the goddess Venus emerging from the sea on a shell, symbolizing beauty, love, and purity. This Renaissance masterpiece is known for its graceful lines and delicate details, embodying the ideals of classical beauty. The soft color palette and flowing forms capture a sense of tranquility, making it one of the most celebrated works of the Italian Renaissance.",
-    "paintedDate": "1484-1486",
-    "image": "mona_lisa",
+    "shortDescription": "A mythological depiction of Venus emerging from the sea on a shell.",
+    "description": "The Birth of Venus, painted by Sandro Botticelli around the mid-1480s, stands as one of the crowning achievements of the Italian Renaissance. This iconic masterpiece portrays the mythological moment when Venus, the Roman goddess of love and beauty, is born from the sea foam, arriving on a large seashell. Her emergence from the waters symbolizes not only the birth of beauty but also the idealization of divine love and purity. Venus stands in a graceful, almost ethereal pose, as if suspended between the natural and the divine realms. She gazes toward the shore with an expression that evokes a sense of both serenity and reverence.\n\nThe surrounding elements further enhance the allegorical message of the painting. To the left, the wind gods Zephyrus and Aura are depicted gently blowing the seashell toward the shore, while the figure of Chloris, a nymph associated with flowers and spring, is seen in the process of casting flowers toward Venus. The soft colors, especially the pinks, greens, and blues, as well as the fluid, harmonious lines of the composition, lend an air of tranquility and grace to the scene, highlighting Botticelli's mastery in creating a dreamlike and otherworldly atmosphere.\n\nBotticelli's attention to the human form is also evident in the figure of Venus, whose slender body is gracefully outlined, with her long, flowing hair providing a sense of motion and sensuality. Her modest pose, with hands covering her nudity, emphasizes the goddess’s purity and innocence, while still embodying the classical ideals of beauty. The painting reflects the Renaissance's renewed interest in classical mythology, humanism, and the exploration of divine and human virtues. The image of Venus, untouched by earthly imperfections, transcends time and represents an ideal of beauty that was both a reflection of the ancient past and a product of the Renaissance’s celebration of human potential.\n\nThe composition also speaks to the broader cultural and philosophical themes of the Renaissance, such as the merging of Christian and classical values. While Venus’s origin in Greek and Roman mythology is clear, her portrayal in the context of Renaissance ideals elevates her to a symbol of divine love, spiritual purity, and the harmonious union between the physical and the divine. This blending of mythological, spiritual, and philosophical elements makes The Birth of Venus a deeply layered work, resonating with contemporary audiences who saw it as not just a representation of beauty, but also a metaphor for the birth of new ideas and cultural values. Today, it remains a testament to Botticelli’s unique ability to capture the divine in the human form, while also serving as a lasting symbol of idealized beauty, purity, and the power of love, continuing to inspire viewers and artists alike.",
+    "paintedDate": "1480s",
+    "image": "the_birth_of_venus",
     "rating": 4.8,
-    "reviews": 615
+    "reviews": 1750,
+    "style": "Early Renaissance",
+    "technique": "Tempera on canvas",
+    "genre": "Mythological"
   },
   {
     "title": "The Last Supper",
@@ -107,7 +137,10 @@
     "paintedDate": "1495-1498",
     "image": "the_last_supper",
     "rating": 4.9,
-    "reviews": 1200
+    "reviews": 1200,
+    "style": "High Renaissance",
+    "technique": "Tempera on gesso, pitch, and mastic",
+    "genre": "Religious"
   },
   {
     "title": "Guernica",
@@ -117,16 +150,100 @@
     "paintedDate": "1937",
     "image": "guernica",
     "rating": 4.8,
-    "reviews": 1050
+    "reviews": 1050,
+    "style": "Cubism",
+    "technique": "Oil on canvas",
+    "genre": "History Painting"
   },
   {
-    "title": "American Gothic",
-    "author": "Grant Wood",
-    "shortDescription": "An iconic American painting depicting a stern farmer and his daughter.",
-    "description": "American Gothic, painted by Grant Wood in 1930, is one of the most recognizable pieces in American art. The painting depicts a stern-looking farmer holding a pitchfork, standing beside a young woman—often assumed to be his daughter—against the backdrop of a simple Gothic-style farmhouse. The models for this work were Wood's sister and his dentist, whose expressions of seriousness and resilience give the piece a sense of dignity and strength.\n\nWood's attention to detail and use of realism capture both the simplicity and the gravity of rural American life. The farmer’s stoic expression and the young woman’s solemn gaze reflect the harsh realities of life during the Great Depression, a time when many Americans were struggling to make ends meet. The Gothic window in the farmhouse, symbolizing traditional values, contrasts with the modern realities facing rural communities.\n\nThe painting has been interpreted both as a tribute to and a satire of the American Midwest. Some view it as a celebration of hard work and tradition, while others see it as a critique of rural conservatism and rigidity. The ambiguity of the characters' expressions leaves room for various interpretations, making it a subject of ongoing debate and fascination.\n\nSince its creation, American Gothic has become a cultural icon, frequently parodied and referenced in popular culture. Its timeless representation of resilience and solemnity has made it a symbol of the American spirit, continuing to resonate with audiences around the world.",
-    "paintedDate": "1930",
-    "image": "american_gothic",
+    "title": "The Creation of Adam",
+    "author": "Michelangelo",
+    "shortDescription": "A timeless fresco depicting God giving life to Adam.",
+    "description": "The Creation of Adam, painted by Michelangelo between 1508 and 1512, is one of the most iconic images in the history of art. This fresco, located on the ceiling of the Sistine Chapel in Vatican City, depicts the Biblical story of God giving life to Adam, the first man. At the center of the composition, God and Adam stretch their hands towards each other, with their fingers nearly touching—a symbol of the divine spark of life passing from Creator to creation.\n\nMichelangelo's rendering of the human form is remarkable in its anatomical accuracy and dynamism. God's powerful, flowing figure and Adam's languid, receptive posture create a contrast that highlights the life-giving moment. The figures of angels surrounding God add to the divine aura, while the soft, earthly tones used for Adam suggest his close connection to the human world.\n\nThe Creation of Adam is celebrated not only for its artistic brilliance but also for its deep symbolic resonance. The nearly touching fingers of God and Adam have come to represent human potential and the connection between the divine and the mortal. This image has transcended religious themes, becoming a universal symbol of life, creativity, and inspiration. It continues to captivate audiences with its beauty, complexity, and timeless significance.",
+    "paintedDate": "1508-1512",
+    "image": "creation_of_adam",
+    "rating": 4.9,
+    "reviews": 2100,
+    "style": "High Renaissance",
+    "technique": "Fresco",
+    "genre": "Religious"
+  },
+  {
+    "title": "Water Lilies",
+    "author": "Claude Monet",
+    "shortDescription": "A serene, impressionistic depiction of water lilies on a pond.",
+    "description": "Water Lilies, created by Claude Monet between 1896 and 1926, represents one of the most ambitious projects in art history. Across nearly 250 canvases, Monet explores the effects of light and time on his beloved water garden in Giverny. The series captures the interplay between light, water, and flora, inviting viewers into an immersive, meditative space filled with delicate shades of green, blue, and pink.\n\nThe paintings shift in tone and mood depending on the season, time of day, and weather. Monet’s free brushwork and softened edges give the scenes an almost dreamlike quality, with the lilies themselves seeming to float on a reflective mirror of the sky and trees. This technique draws viewers into the peaceful, harmonious world that Monet cultivated, allowing them to experience the garden through his eyes.\n\nMonet’s Water Lilies series is considered a triumph of Impressionism and continues to captivate audiences worldwide. His visionary approach to nature painting made a lasting impact on modern art, inspiring subsequent artists to explore similar themes of light, perception, and beauty.",
+    "paintedDate": "1896-1926",
+    "image": "water_lilies",
+    "rating": 4.9,
+    "reviews": 1950,
+    "style": "Impressionism",
+    "technique": "Oil on canvas",
+    "genre": "Landscape"
+  },
+  {
+    "title": "Whistler's Mother",
+    "author": "James McNeill Whistler",
+    "shortDescription": "A sober, intimate portrayal of the artist’s mother.",
+    "description": "Also known as Arrangement in Grey and Black No. 1, Whistler's Mother was painted by James McNeill Whistler in 1871 and stands as a poignant tribute to the artist's mother. The simplicity of the composition, with Whistler’s mother seated in profile against a stark background, conveys a quiet dignity and strength. Her serene, composed demeanor hints at an inner resilience.\n\nThe painting’s monochromatic palette and structured composition emphasize the austerity and solemnity of the figure, with Whistler using tones of gray and black to create depth and contrast. The setting is sparse, directing all attention to the sitter’s presence. This minimalist approach also imbues the work with a sense of timelessness, as if the viewer is witnessing a moment frozen in time.\n\nWhistler’s Mother has been interpreted as a symbol of motherhood and devotion, resonating as an image of familial love and respect. It remains an iconic work in both American and European art, cherished for its quiet elegance and emotional restraint.",
+    "paintedDate": "1871",
+    "image": "whistlers_mother",
+    "rating": 4.6,
+    "reviews": 1150,
+    "style": "Realism",
+    "technique": "Oil on canvas",
+    "genre": "Portrait"
+  },
+  {
+    "title": "Liberty Leading the People",
+    "author": "Eugène Delacroix",
+    "shortDescription": "A powerful symbol of freedom and revolution.",
+    "description": "Liberty Leading the People, painted by Eugène Delacroix in 1830, stands as an iconic symbol of freedom and defiance. Created to commemorate the July Revolution in France, the painting portrays Liberty personified as a fierce woman leading a diverse group of revolutionaries through the chaos of battle. Her raised tricolor flag becomes an emblem of national pride and the collective spirit of resistance.\n\nDelacroix’s intense use of color and dynamic composition imbues the scene with a sense of urgency and action. Figures from all walks of life rally around Liberty, reinforcing the revolutionary ideal of unity across social classes. The smoke, bodies, and expressions of resolve convey the brutality and fervor of the fight for justice.\n\nThis powerful work captures the essence of the revolutionary spirit, embodying themes of resilience, courage, and sacrifice. Liberty Leading the People remains celebrated for its portrayal of idealism and has become an enduring image associated with the struggle for freedom and human rights.",
+    "paintedDate": "1830",
+    "image": "liberty_leading_the_people",
+    "rating": 4.8,
+    "reviews": 1650,
+    "style": "Romanticism",
+    "technique": "Oil on canvas",
+    "genre": "History Painting"
+  },
+  {
+    "title": "The School of Athens",
+    "author": "Raphael",
+    "shortDescription": "A fresco celebrating philosophy, with prominent Greek thinkers.",
+    "description": "The School of Athens, painted by Raphael between 1509 and 1511, is one of the most famous frescoes in the Vatican. Commissioned by Pope Julius II, this masterpiece gathers the most prominent figures of classical philosophy in a grand architectural setting, celebrating the unity of intellectual achievement. At the center of the fresco stand Plato and Aristotle, whose gestures symbolize the balance between idealism and realism.\n\nRaphael uses a complex arrangement of figures, each representing different fields of knowledge, from mathematics to ethics, creating a sense of harmonious coexistence. The architecture of the painting, inspired by Roman designs, underscores the grandeur and balance of classical ideals. Raphael’s intricate use of perspective guides the viewer’s eye toward the central philosophers, emphasizing their importance.\n\nThe School of Athens captures the spirit of the Renaissance, a period of rediscovery and reverence for ancient knowledge. It remains a symbol of intellectual pursuit and artistic mastery, revered for both its aesthetic beauty and its profound representation of philosophical ideals.",
+    "paintedDate": "1509-1511",
+    "image": "school_of_athens",
+    "rating": 4.9,
+    "reviews": 1750,
+    "style": "High Renaissance",
+    "technique": "Fresco",
+    "genre": "History Painting"
+  },
+  {
+    "title": "The Garden of Earthly Delights",
+    "author": "Hieronymus Bosch",
+    "shortDescription": "A surreal triptych exploring themes of sin and paradise.",
+    "description": "The Garden of Earthly Delights, painted by Hieronymus Bosch between 1490 and 1510, is a monumental triptych that examines humanity's temptations, pleasures, and sins through bizarre and fantastical imagery. In the left panel, Bosch portrays the Garden of Eden, a scene of innocence and beauty where Adam and Eve are introduced by God. The middle panel, bustling with activity, reveals a chaotic world of indulgence and sensuality as humans engage in surreal, often whimsical acts.\n\nThe right panel shifts to a haunting depiction of hell, filled with twisted figures and scenes of punishment that capture the moral consequences of overindulgence. Bosch’s intricately detailed style and peculiar creatures fill each scene with a sense of wonder and unease, encouraging viewers to contemplate the nature of sin and virtue.\n\nThe Garden of Earthly Delights remains one of art’s most mysterious and thought-provoking works. Bosch’s imaginative vision and complex symbolism continue to inspire debates about its meaning, making it a lasting exploration of human behavior and morality.",
+    "paintedDate": "1490-1510",
+    "image": "garden_of_earthly_delights",
     "rating": 4.7,
-    "reviews": 880
+    "reviews": 1500,
+    "style": "Northern Renaissance",
+    "technique": "Oil on oak panels",
+    "genre": "Allegory"
+  },
+  {
+    "title": "Venus de Milo",
+    "author": "Unknown",
+    "shortDescription": "A renowned ancient Greek statue of the goddess Venus.",
+    "description": "The Venus de Milo, believed to have been sculpted between 130 and 100 BCE, is one of the most famous statues of the ancient world. This marble sculpture of the goddess Venus, the Roman equivalent of Aphrodite, was discovered on the Greek island of Milos in 1820. The statue’s missing arms have only added to its mystique, with art historians speculating about the original pose and purpose of the figure.\n\nThe Venus de Milo is celebrated for its graceful, idealized depiction of the female form, capturing the classical beauty and elegance of ancient Greek sculpture. Standing at over six feet tall, the statue features delicately carved drapery that clings to her lower body, creating a dynamic contrast between the soft, flowing lines of her clothing and the exposed contours of her torso. Her slightly turned head and calm expression convey a sense of timeless serenity, inviting viewers to ponder the mysteries of her lost gestures.\n\nThough attributed to the sculptor Alexandros of Antioch, the Venus de Milo remains an enigmatic masterpiece. The statue’s balance of poise and movement exemplifies the ideals of Hellenistic art, where beauty was rendered with both realism and a touch of divine idealism. Today, this iconic statue is prominently displayed at the Louvre Museum in Paris, where it continues to inspire admiration and fascination as a symbol of classical artistry and the enduring allure of ancient Greek mythology.",
+    "paintedDate": "130-100 BCE",
+    "image": "venus_de_milo",
+    "rating": 4.8,
+    "reviews": 1850,
+    "style": "Hellenistic",
+    "technique": "Marble sculpture",
+    "genre": "Sculpture"
   }
 ]
