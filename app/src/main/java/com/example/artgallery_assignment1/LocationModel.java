@@ -1,6 +1,8 @@
 package com.example.artgallery_assignment1;
 
-public class LocationModel {
+import java.io.Serializable;
+
+public class LocationModel implements Serializable {
     private String name;        // Location name (e.g., "Louvre Museum, Paris")
     private double latitude;    // Latitude of the location
     private double longitude;   // Longitude of the location

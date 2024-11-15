@@ -2,7 +2,9 @@ package com.example.artgallery_assignment1;
 
 import android.location.Location;
 
-public class ArtPieceModel {
+import java.io.Serializable;
+
+public class ArtPieceModel implements Serializable {
     private final String title;
     private final String author;
     private final String shortDescription;
