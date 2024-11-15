@@ -41,8 +41,8 @@ public class DetailTabFragment extends Fragment {
 
             titleTextView.setText(artPiece.getTitle());
             descriptionTextView.setText(artPiece.getDescription());
-            authorTextView.setText("By: " + artPiece.getAuthor());
-            paintedDateTextView.setText("Painted in: " + artPiece.getPaintedDate());
+            authorTextView.setText("By " + artPiece.getAuthor());
+            paintedDateTextView.setText("Painted in " + artPiece.getPaintedDate());
 
             int imageResId = getResources().getIdentifier(artPiece.getImage(), "drawable", getActivity().getPackageName());
             if (imageResId != 0) {

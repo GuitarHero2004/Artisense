@@ -48,9 +48,9 @@
                 android:layout_marginBottom="4dp"
                 android:paddingHorizontal="4dp"
                 android:text="@string/art_title"
-                android:gravity="start"
+                android:gravity="center"
                 android:textColor="@color/black"
-                android:textSize="32sp"
+                android:textSize="36sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -60,7 +60,7 @@
                 android:paddingHorizontal="4dp"
                 android:layout_marginBottom="4dp"
                 android:text="@string/art_author"
-                android:gravity="start"
+                android:gravity="center"
                 android:textColor="@color/grey"
                 android:textSize="24sp"
                 android:textStyle="italic"/>
@@ -72,7 +72,7 @@
                 android:paddingHorizontal="4dp"
                 android:layout_marginBottom="4dp"
                 android:text="@string/art_painted_date"
-                android:gravity="start"
+                android:gravity="center"
                 android:textColor="@color/grey"
                 android:textSize="24sp"
                 android:textStyle="italic"/>

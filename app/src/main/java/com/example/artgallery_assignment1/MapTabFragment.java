@@ -54,7 +54,7 @@ public class MapTabFragment extends Fragment implements OnMapReadyCallback {
                     .title(location.getName()));
 
             // Move the camera to focus on the marker
-            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(locationLatLng, 10f));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(locationLatLng, 15f));
         } else {
             Log.e("ExtraTabFragment", "No location available for the selected art piece");
         }
