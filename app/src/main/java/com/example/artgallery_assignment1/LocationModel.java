@@ -3,13 +3,15 @@ package com.example.artgallery_assignment1;
 import java.io.Serializable;
 
 public class LocationModel implements Serializable {
-    private String name;        // Location name (e.g., "Louvre Museum, Paris")
-    private double latitude;    // Latitude of the location
-    private double longitude;   // Longitude of the location
+    private String name;
+    private String address;
+    private double latitude;
+    private double longitude;
 
     // Constructor
-    public LocationModel(String name, double latitude, double longitude) {
+    public LocationModel(String name, String address, double latitude, double longitude) {
         this.name = name;
+        this.address = address;
         this.latitude = latitude;
         this.longitude = longitude;
     }
@@ -21,6 +23,10 @@ public class LocationModel implements Serializable {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
     }
 
     public double getLatitude() {

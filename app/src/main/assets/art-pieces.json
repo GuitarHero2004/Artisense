@@ -13,6 +13,7 @@
     "genre": "Portrait",
     "location": {
       "name": "Louvre Museum",
+      "address": "Rue de Rivoli, 75001 Paris, France",
       "longitude": 2.3386,
       "latitude": 48.8606
     }
@@ -31,6 +32,7 @@
     "genre": "Landscape",
     "location": {
       "name": "Museum of Modern Art",
+      "address": "11 W 53rd St, New York, NY 10019, United States",
       "longitude": -73.9772,
       "latitude": 40.7614
     }
@@ -49,6 +51,7 @@
     "genre": "Surrealism",
     "location": {
       "name": "Museum of Modern Art",
+      "address": "11 W 53rd St, New York, NY 10019, United States",
       "longitude": -73.9772,
       "latitude": 40.7614
     }
@@ -67,6 +70,7 @@
     "genre": "Portrait",
     "location": {
       "name": "Mauritshuis",
+      "address": "Plein 29, 2511 CS The Hague, Netherlands",
       "longitude": 4.3043,
       "latitude": 52.0808
     }
@@ -85,6 +89,7 @@
     "genre": "Symbolism",
     "location": {
       "name": "National Gallery",
+      "address": "Trafalgar Square, London WC2N 5DN, United Kingdom",
       "longitude": 10.7376,
       "latitude": 59.9139
     }
@@ -103,6 +108,7 @@
     "genre": "Group Portrait",
     "location": {
       "name": "Rijksmuseum",
+        "address": "Museumstraat 1, 1071 XX Amsterdam, Netherlands",
       "longitude": 4.8854,
       "latitude": 52.36
     }
@@ -121,6 +127,7 @@
     "genre": "Symbolism",
     "location": {
       "name": "Österreichische Galerie Belvedere",
+        "address": "Prinz Eugen-Straße 27, 1030 Vienna, Austria",
       "longitude": 16.3817,
       "latitude": 48.1919
     }
@@ -139,6 +146,7 @@
     "genre": "Portrait",
     "location": {
       "name": "Art Institute of Chicago",
+        "address": "111 S Michigan Ave, Chicago, IL 60603, United States",
       "longitude": -87.6232,
       "latitude": 41.8796
     }
@@ -157,6 +165,7 @@
     "genre": "Portrait",
     "location": {
       "name": "Museo del Prado",
+        "address": "Calle de Ruiz de Alarcón, 23, 28014 Madrid, Spain",
       "longitude": -3.6907,
       "latitude": 40.4138
     }
@@ -175,6 +184,7 @@
     "genre": "Mythological",
     "location": {
       "name": "Uffizi Gallery",
+        "address": "Piazzale degli Uffizi, 6, 50122 Florence, Italy",
       "longitude": 11.2558,
       "latitude": 43.7696
     }
@@ -193,6 +203,7 @@
     "genre": "Religious",
     "location": {
       "name": "Santa Maria delle Grazie",
+        "address": "Piazza di Santa Maria delle Grazie, 2, 20123 Milan, Italy",
       "longitude": 9.1916,
       "latitude": 45.4651
     }
@@ -211,6 +222,7 @@
     "genre": "History Painting",
     "location": {
       "name": "Museo Reina Sofía",
+        "address": "Calle de Santa Isabel, 52, 28012 Madrid, Spain",
       "longitude": -3.6932,
       "latitude": 40.4081
     }
@@ -229,6 +241,7 @@
     "genre": "Religious",
     "location": {
       "name": "Sistine Chapel",
+        "address": "Vatican City",
       "longitude": 12.4534,
       "latitude": 41.9022
     }
@@ -247,6 +260,7 @@
     "genre": "Landscape",
     "location": {
       "name": "Musée de l'Orangerie",
+        "address": "Jardin Tuileries, 75001 Paris, France",
       "longitude": 2.3226,
       "latitude": 48.8637
     }
@@ -265,6 +279,7 @@
     "genre": "Portrait",
     "location": {
       "name": "Musée d'Orsay",
+        "address": "1 Rue de la Légion d'Honneur, 75007 Paris, France",
       "longitude": 2.3266,
       "latitude": 48.8599
     }
@@ -283,6 +298,7 @@
     "genre": "History Painting",
     "location": {
       "name": "Louvre Museum",
+        "address": "Rue de Rivoli, 75001 Paris, France",
       "longitude": 2.3376,
       "latitude": 48.8606
     }
@@ -301,6 +317,7 @@
     "genre": "History Painting",
     "location": {
       "name": "Vatican Museums",
+        "address": "Viale Vaticano, 00165 Vatican City",
       "longitude": 12.4534,
       "latitude": 41.9022
     }
@@ -319,6 +336,7 @@
     "genre": "Allegory",
     "location": {
       "name": "Prado Museum",
+        "address": "Calle de Ruiz de Alarcón, 23, 28014 Madrid, Spain",
       "longitude": -3.6921,
       "latitude": 40.4138
     }
@@ -337,6 +355,7 @@
     "genre": "Sculpture",
     "location": {
       "name": "Louvre Museum",
+        "address": "Rue de Rivoli, 75001 Paris, France",
       "longitude": 2.3376,
       "latitude": 48.8606
     }
