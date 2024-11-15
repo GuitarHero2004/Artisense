@@ -5,7 +5,7 @@
         android:icon="@drawable/famous_art_list"
         android:title="@string/famous_art_pieces" />
     <item
-        android:id="@+id/favorites"
-        android:icon="@drawable/favorites"
-        android:title="@string/favorites" />
+        android:id="@+id/gallery_map_fragment_view"
+        android:icon="@drawable/gallery_map"
+        android:title="@string/galleries" />
 </menu>

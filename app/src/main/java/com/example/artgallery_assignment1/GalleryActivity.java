@@ -33,8 +33,8 @@ public class GalleryActivity extends AppCompatActivity {
             // Choose the fragment based on selected item
             if (itemId == R.id.famous_art) {
                 selectedFragment = new FamousArtFragment();
-            } else if (itemId == R.id.favorites) {
-                selectedFragment = new FavoriteArtFragment();
+            } else if (itemId == R.id.gallery_map_fragment_view) {
+                selectedFragment = new GalleryMapFragment();
             } else {
                 return false;
             }

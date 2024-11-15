@@ -15,4 +15,6 @@
     <string name="favorites">Favorites</string>
     <string name="contemporary_art">Contemporary Art</string>
     <string name="currently_displayed_location">Current Showroom Location</string>
+    <string name="galleries_distribution">Galleries Distribution</string>
+    <string name="galleries">Galleries</string>
 </resources>
