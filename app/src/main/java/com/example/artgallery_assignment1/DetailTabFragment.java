@@ -17,8 +17,6 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 
-import java.util.Objects;
-
 public class DetailTabFragment extends Fragment {
 
     @SuppressLint("SetTextI18n")
@@ -37,14 +35,20 @@ public class DetailTabFragment extends Fragment {
             TextView descriptionTextView = view.findViewById(R.id.artDescription);
             TextView authorTextView = view.findViewById(R.id.artAuthor);
             TextView paintedDateTextView = view.findViewById(R.id.artPaintedDate);
+            TextView artGenreTextView = view.findViewById(R.id.artGenre);
+            TextView artStyleTextView = view.findViewById(R.id.artStyle);
+            TextView artTechniqueTextView = view.findViewById(R.id.artTechnique);
             ImageView artImageView = view.findViewById(R.id.artDetailImage);
 
             titleTextView.setText(artPiece.getTitle());
             descriptionTextView.setText(artPiece.getDescription());
             authorTextView.setText("By " + artPiece.getAuthor());
             paintedDateTextView.setText("Painted in " + artPiece.getPaintedDate());
+            artGenreTextView.setText("Genre: " + artPiece.getGenre());
+            artStyleTextView.setText("Style: " + artPiece.getStyle());
+            artTechniqueTextView.setText("Technique: " + artPiece.getTechnique());
 
-            int imageResId = getResources().getIdentifier(artPiece.getImage(), "drawable", getActivity().getPackageName());
+            @SuppressLint("DiscouragedApi") int imageResId = getResources().getIdentifier(artPiece.getImage(), "drawable", requireActivity().getPackageName());
             if (imageResId != 0) {
                 Glide.with(this)
                         .load(imageResId)

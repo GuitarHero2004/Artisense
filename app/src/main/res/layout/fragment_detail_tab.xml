@@ -48,7 +48,7 @@
                 android:layout_marginBottom="4dp"
                 android:paddingHorizontal="4dp"
                 android:text="@string/art_title"
-                android:gravity="center"
+                android:gravity="start"
                 android:textColor="@color/black"
                 android:textSize="36sp"
                 android:textStyle="bold"/>
@@ -60,8 +60,8 @@
                 android:paddingHorizontal="4dp"
                 android:layout_marginBottom="4dp"
                 android:text="@string/art_author"
-                android:gravity="center"
-                android:textColor="@color/grey"
+                android:gravity="start"
+                android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="italic"/>
 
@@ -72,10 +72,46 @@
                 android:paddingHorizontal="4dp"
                 android:layout_marginBottom="4dp"
                 android:text="@string/art_painted_date"
-                android:gravity="center"
-                android:textColor="@color/grey"
+                android:gravity="start"
+                android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/artGenre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/art_painted_date"
+                android:gravity="start"
+                android:textColor="@color/grey"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/artStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/art_painted_date"
+                android:gravity="start"
+                android:textColor="@color/grey"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/artTechnique"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/art_painted_date"
+                android:gravity="start"
+                android:textColor="@color/grey"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
 
         </LinearLayout>
 
