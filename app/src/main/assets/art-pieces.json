@@ -10,7 +10,12 @@
     "reviews": 500,
     "style": "High Renaissance",
     "technique": "Oil on poplar panel",
-    "genre": "Portrait"
+    "genre": "Portrait",
+    "location": {
+      "name": "Louvre Museum",
+      "longitude": 2.3386,
+      "latitude": 48.8606
+    }
   },
   {
     "title": "The Starry Night",
@@ -23,7 +28,12 @@
     "reviews": 750,
     "style": "Post-Impressionism",
     "technique": "Oil on canvas",
-    "genre": "Landscape"
+    "genre": "Landscape",
+    "location": {
+      "name": "Museum of Modern Art",
+      "longitude": -73.9772,
+      "latitude": 40.7614
+    }
   },
   {
     "title": "The Persistence of Memory",
@@ -36,7 +46,12 @@
     "reviews": 430,
     "style": "Surrealism",
     "technique": "Oil on canvas",
-    "genre": "Surrealism"
+    "genre": "Surrealism",
+    "location": {
+      "name": "Museum of Modern Art",
+      "longitude": -73.9772,
+      "latitude": 40.7614
+    }
   },
   {
     "title": "Girl with a Pearl Earring",
@@ -49,7 +64,12 @@
     "reviews": 390,
     "style": "Baroque",
     "technique": "Oil on canvas",
-    "genre": "Portrait"
+    "genre": "Portrait",
+    "location": {
+      "name": "Mauritshuis",
+      "longitude": 4.3043,
+      "latitude": 52.0808
+    }
   },
   {
     "title": "The Scream",
@@ -62,7 +82,12 @@
     "reviews": 580,
     "style": "Expressionism",
     "technique": "Oil, tempera, and pastel on cardboard",
-    "genre": "Symbolism"
+    "genre": "Symbolism",
+    "location": {
+      "name": "National Gallery",
+      "longitude": 10.7376,
+      "latitude": 59.9139
+    }
   },
   {
     "title": "The Night Watch",
@@ -75,7 +100,12 @@
     "reviews": 690,
     "style": "Baroque",
     "technique": "Oil on canvas",
-    "genre": "Group Portrait"
+    "genre": "Group Portrait",
+    "location": {
+      "name": "Rijksmuseum",
+      "longitude": 4.8854,
+      "latitude": 52.36
+    }
   },
   {
     "title": "The Kiss",
@@ -88,7 +118,12 @@
     "reviews": 520,
     "style": "Art Nouveau",
     "technique": "Oil and gold leaf on canvas",
-    "genre": "Symbolism"
+    "genre": "Symbolism",
+    "location": {
+      "name": "Österreichische Galerie Belvedere",
+      "longitude": 16.3817,
+      "latitude": 48.1919
+    }
   },
   {
     "title": "American Gothic",
@@ -101,7 +136,12 @@
     "reviews": 480,
     "style": "Regionalism",
     "technique": "Oil on beaverboard",
-    "genre": "Portrait"
+    "genre": "Portrait",
+    "location": {
+      "name": "Art Institute of Chicago",
+      "longitude": -87.6232,
+      "latitude": 41.8796
+    }
   },
   {
     "title": "Las Meninas",
@@ -114,7 +154,12 @@
     "reviews": 510,
     "style": "Baroque",
     "technique": "Oil on canvas",
-    "genre": "Portrait"
+    "genre": "Portrait",
+    "location": {
+      "name": "Museo del Prado",
+      "longitude": -3.6907,
+      "latitude": 40.4138
+    }
   },
   {
     "title": "The Birth of Venus",
@@ -127,7 +172,12 @@
     "reviews": 1750,
     "style": "Early Renaissance",
     "technique": "Tempera on canvas",
-    "genre": "Mythological"
+    "genre": "Mythological",
+    "location": {
+      "name": "Uffizi Gallery",
+      "longitude": 11.2558,
+      "latitude": 43.7696
+    }
   },
   {
     "title": "The Last Supper",
@@ -140,7 +190,12 @@
     "reviews": 1200,
     "style": "High Renaissance",
     "technique": "Tempera on gesso, pitch, and mastic",
-    "genre": "Religious"
+    "genre": "Religious",
+    "location": {
+      "name": "Santa Maria delle Grazie",
+      "longitude": 9.1916,
+      "latitude": 45.4651
+    }
   },
   {
     "title": "Guernica",
@@ -153,7 +208,12 @@
     "reviews": 1050,
     "style": "Cubism",
     "technique": "Oil on canvas",
-    "genre": "History Painting"
+    "genre": "History Painting",
+    "location": {
+      "name": "Museo Reina Sofía",
+      "longitude": -3.6932,
+      "latitude": 40.4081
+    }
   },
   {
     "title": "The Creation of Adam",
@@ -166,7 +226,12 @@
     "reviews": 2100,
     "style": "High Renaissance",
     "technique": "Fresco",
-    "genre": "Religious"
+    "genre": "Religious",
+    "location": {
+      "name": "Sistine Chapel",
+      "longitude": 12.4534,
+      "latitude": 41.9022
+    }
   },
   {
     "title": "Water Lilies",
@@ -179,7 +244,12 @@
     "reviews": 1950,
     "style": "Impressionism",
     "technique": "Oil on canvas",
-    "genre": "Landscape"
+    "genre": "Landscape",
+    "location": {
+      "name": "Musée de l'Orangerie",
+      "longitude": 2.3226,
+      "latitude": 48.8637
+    }
   },
   {
     "title": "Whistler's Mother",
@@ -192,7 +262,12 @@
     "reviews": 1150,
     "style": "Realism",
     "technique": "Oil on canvas",
-    "genre": "Portrait"
+    "genre": "Portrait",
+    "location": {
+      "name": "Musée d'Orsay",
+      "longitude": 2.3266,
+      "latitude": 48.8599
+    }
   },
   {
     "title": "Liberty Leading the People",
@@ -205,7 +280,12 @@
     "reviews": 1650,
     "style": "Romanticism",
     "technique": "Oil on canvas",
-    "genre": "History Painting"
+    "genre": "History Painting",
+    "location": {
+      "name": "Louvre Museum",
+      "longitude": 2.3376,
+      "latitude": 48.8606
+    }
   },
   {
     "title": "The School of Athens",
@@ -218,7 +298,12 @@
     "reviews": 1750,
     "style": "High Renaissance",
     "technique": "Fresco",
-    "genre": "History Painting"
+    "genre": "History Painting",
+    "location": {
+      "name": "Vatican Museums",
+      "longitude": 12.4534,
+      "latitude": 41.9022
+    }
   },
   {
     "title": "The Garden of Earthly Delights",
@@ -231,7 +316,12 @@
     "reviews": 1500,
     "style": "Northern Renaissance",
     "technique": "Oil on oak panels",
-    "genre": "Allegory"
+    "genre": "Allegory",
+    "location": {
+      "name": "Prado Museum",
+      "longitude": -3.6921,
+      "latitude": 40.4138
+    }
   },
   {
     "title": "Venus de Milo",
@@ -244,6 +334,11 @@
     "reviews": 1850,
     "style": "Hellenistic",
     "technique": "Marble sculpture",
-    "genre": "Sculpture"
+    "genre": "Sculpture",
+    "location": {
+      "name": "Louvre Museum",
+      "longitude": 2.3376,
+      "latitude": 48.8606
+    }
   }
 ]
