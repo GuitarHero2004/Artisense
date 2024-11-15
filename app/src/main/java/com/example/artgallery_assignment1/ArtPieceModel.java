@@ -1,5 +1,7 @@
 package com.example.artgallery_assignment1;
 
+import android.location.Location;
+
 public class ArtPieceModel {
     private final String title;
     private final String author;
@@ -12,9 +14,10 @@ public class ArtPieceModel {
     private final String style;
     private final String technique;
     private final String genre;
+    private final LocationModel location;
 
     // Constructor
-    public ArtPieceModel(String title, String author, String shortDescription, String description, String paintedDate, String image, double rating, int reviews, String style, String technique, String genre) {
+    public ArtPieceModel(String title, String author, String shortDescription, String description, String paintedDate, String image, double rating, int reviews, String style, String technique, String genre, LocationModel location) {
         this.title = title;
         this.author = author;
         this.shortDescription = shortDescription;
@@ -26,6 +29,7 @@ public class ArtPieceModel {
         this.style = style;
         this.technique = technique;
         this.genre = genre;
+        this.location = location;
     }
 
     // Getters and Setters for the fields
@@ -69,6 +73,10 @@ public class ArtPieceModel {
 
     public String getGenre() {
         return genre;
+    }
+
+    public LocationModel getLocation() {
+        return location;
     }
 }
 
