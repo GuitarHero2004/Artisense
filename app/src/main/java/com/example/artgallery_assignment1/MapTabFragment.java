@@ -9,11 +9,12 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import com.example.artgallery_assignment1.Model.ArtPieceModel;
+import com.example.artgallery_assignment1.Model.LocationModel;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -55,6 +56,11 @@ public class MapTabFragment extends Fragment implements OnMapReadyCallback {
                     .title(location.getName()));
 
             googleMap.setMapStyle(null);
+            googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+
+            googleMap.getUiSettings().setZoomControlsEnabled(true);
+            googleMap.getUiSettings().setMapToolbarEnabled(true);
+            googleMap.getUiSettings().setCompassEnabled(true);
 
             // Move the camera to focus on the marker
             googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(locationLatLng, 15f));

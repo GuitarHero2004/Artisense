@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import com.example.artgallery_assignment1.Model.ArtPieceModel;
+import com.example.artgallery_assignment1.Model.LocationModel;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -83,6 +85,12 @@ public class GalleryMapFragment extends Fragment implements OnMapReadyCallback {
                     googleMap.addMarker(new MarkerOptions()
                             .position(locationLatLng)
                             .title(location.getName()));
+
+                    googleMap.setMapStyle(null);
+                    googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+                    googleMap.getUiSettings().setZoomControlsEnabled(true);
+                    googleMap.getUiSettings().setMapToolbarEnabled(true);
+                    googleMap.getUiSettings().setCompassEnabled(true);
 
                     // Move the camera to the last marker position
                     googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(locationLatLng, 5f));
