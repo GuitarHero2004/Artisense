@@ -60,7 +60,7 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
 //        Toast.makeText(context, "Loaded: " + artPiece.getTitle(), Toast.LENGTH_SHORT).show();
 
         // Use Glide to load the image dynamically
-        int imageResId = context.getResources().getIdentifier(artPiece.getImage(), "drawable", context.getPackageName());
+        @SuppressLint("DiscouragedApi") int imageResId = context.getResources().getIdentifier(artPiece.getImage(), "drawable", context.getPackageName());
         if (imageResId != 0) {  // Check if resource ID is valid
             Glide.with(context)
                     .load(imageResId)  // Load the drawable resource ID
