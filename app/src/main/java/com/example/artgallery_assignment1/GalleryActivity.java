@@ -35,6 +35,8 @@ public class GalleryActivity extends AppCompatActivity {
                 selectedFragment = new FamousArtFragment();
             } else if (itemId == R.id.gallery_map_fragment_view) {
                 selectedFragment = new GalleryMapFragment();
+            } else if (itemId == R.id.art_quiz) {
+                selectedFragment = new ArtQuizFragment();
             } else {
                 return false;
             }

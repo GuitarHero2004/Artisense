@@ -8,4 +8,8 @@
         android:id="@+id/gallery_map_fragment_view"
         android:icon="@drawable/gallery_map"
         android:title="@string/galleries" />
+    <item
+        android:id="@+id/art_quiz"
+        android:icon="@drawable/quiz"
+        android:title="@string/quiz" />
 </menu>

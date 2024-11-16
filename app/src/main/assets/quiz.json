@@ -1,0 +1,184 @@
+[
+  {
+    "artPieceId": "venus_de_milo",
+    "quiz": {
+      "question": "What is the material used for the Venus de Milo sculpture?",
+      "answers": [
+        "Bronze",
+        "Marble",
+        "Wood",
+        "Clay"
+      ],
+      "correctAnswer": "Marble"
+    }
+  },
+  {
+    "artPieceId": "mona_lisa",
+    "quiz": {
+      "question": "Who painted the Mona Lisa?",
+      "answers": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Raphael",
+        "Donatello"
+      ],
+      "correctAnswer": "Leonardo da Vinci"
+    }
+  },
+  {
+    "artPieceId": "the_scream",
+    "quiz": {
+      "question": "Who painted The Scream?",
+      "answers": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Edvard Munch",
+        "Claude Monet"
+      ],
+      "correctAnswer": "Edvard Munch"
+    }
+  },
+  {
+    "artPieceId": "starry_night",
+    "quiz": {
+      "question": "Who painted Starry Night?",
+      "answers": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Edvard Munch",
+        "Claude Monet"
+      ],
+      "correctAnswer": "Vincent van Gogh"
+    }
+  },
+  {
+    "artPieceId": "venus_de_milo",
+    "quiz": {
+      "question": "Where was the Venus de Milo discovered?",
+      "answers": [
+        "Athens, Greece",
+        "Rome, Italy",
+        "Milos, Greece",
+        "Paris, France"
+      ],
+      "correctAnswer": "Milos, Greece"
+    }
+  },
+  {
+    "artPieceId": "mona_lisa",
+    "quiz": {
+      "question": "What is the Mona Lisa's famous smile often described as?",
+      "answers": [
+        "Serene and mysterious",
+        "Sad and melancholic",
+        "Joyful and bright",
+        "Angry and defiant"
+      ],
+      "correctAnswer": "Serene and mysterious"
+    }
+  },
+  {
+    "artPieceId": "the_scream",
+    "quiz": {
+      "question": "What does the figure in The Scream appear to be doing?",
+      "answers": [
+        "Shouting",
+        "Crying",
+        "Singing",
+        "Laughing"
+      ],
+      "correctAnswer": "Shouting"
+    }
+  },
+  {
+    "artPieceId": "starry_night",
+    "quiz": {
+      "question": "What is depicted in the foreground of Starry Night?",
+      "answers": [
+        "A calm lake",
+        "A winding road",
+        "Cypress trees",
+        "A cityscape"
+      ],
+      "correctAnswer": "Cypress trees"
+    }
+  },
+  {
+    "artPieceId": "guernica",
+    "quiz": {
+      "question": "Which historical event does Guernica depict?",
+      "answers": [
+        "World War I",
+        "The bombing of Guernica during the Spanish Civil War",
+        "The French Revolution",
+        "The fall of the Berlin Wall"
+      ],
+      "correctAnswer": "The bombing of Guernica during the Spanish Civil War"
+    }
+  },
+  {
+    "artPieceId": "the_persistence_of_memory",
+    "quiz": {
+      "question": "What surreal element is featured prominently in The Persistence of Memory?",
+      "answers": [
+        "Floating objects",
+        "Melting clocks",
+        "Creeping shadows",
+        "Monsters in the background"
+      ],
+      "correctAnswer": "Melting clocks"
+    }
+  },
+  {
+    "artPieceId": "girl_with_a_pearl_earring",
+    "quiz": {
+      "question": "What piece of jewelry is the subject wearing in Girl with a Pearl Earring?",
+      "answers": [
+        "A diamond necklace",
+        "A pearl earring",
+        "A gold bracelet",
+        "A silver tiara"
+      ],
+      "correctAnswer": "A pearl earring"
+    }
+  },
+  {
+    "artPieceId": "the_last_supper",
+    "quiz": {
+      "question": "Where is The Last Supper located?",
+      "answers": [
+        "The Louvre Museum",
+        "St. Peter's Basilica",
+        "The Vatican Museums",
+        "Santa Maria delle Grazie, Milan"
+      ],
+      "correctAnswer": "Santa Maria delle Grazie, Milan"
+    }
+  },
+  {
+    "artPieceId": "the_night_watch",
+    "quiz": {
+      "question": "What is the theme of The Night Watch?",
+      "answers": [
+        "A battle scene",
+        "A royal portrait",
+        "A group portrait of a militia company",
+        "A religious gathering"
+      ],
+      "correctAnswer": "A group portrait of a militia company"
+    }
+  },
+  {
+    "artPieceId": "water_lilies",
+    "quiz": {
+      "question": "What natural element is the focus of Claude Monet's Water Lilies series?",
+      "answers": [
+        "Mountains",
+        "Rivers",
+        "Flowers",
+        "The sky"
+      ],
+      "correctAnswer": "Flowers"
+    }
+  }
+]
