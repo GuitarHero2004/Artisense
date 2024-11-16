@@ -65,17 +65,17 @@
                 android:textSize="24sp"
                 android:textStyle="italic"/>
 
-            <TextView
-                android:id="@+id/artPaintedDate"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingHorizontal="4dp"
-                android:layout_marginBottom="4dp"
-                android:text="@string/art_painted_date"
-                android:gravity="start"
-                android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="italic"/>
+<!--            <TextView-->
+<!--                android:id="@+id/artPaintedDate"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:paddingHorizontal="4dp"-->
+<!--                android:layout_marginBottom="4dp"-->
+<!--                android:text="@string/art_painted_date"-->
+<!--                android:gravity="start"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="24sp"-->
+<!--                android:textStyle="italic"/>-->
 
             <TextView
                 android:id="@+id/artGenre"
@@ -86,7 +86,7 @@
                 android:text="@string/art_painted_date"
                 android:gravity="start"
                 android:textColor="@color/grey"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="normal"/>
 
             <TextView
@@ -98,7 +98,7 @@
                 android:text="@string/art_painted_date"
                 android:gravity="start"
                 android:textColor="@color/grey"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="normal"/>
 
             <TextView
@@ -110,7 +110,7 @@
                 android:text="@string/art_painted_date"
                 android:gravity="start"
                 android:textColor="@color/grey"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="normal"/>
 
         </LinearLayout>
@@ -118,7 +118,6 @@
     </LinearLayout>
 
 <!--    Add a break line here-->
-
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"

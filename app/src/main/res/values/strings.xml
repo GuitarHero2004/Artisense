@@ -17,4 +17,8 @@
     <string name="currently_displayed_location">Current Showroom Location</string>
     <string name="galleries_distribution">Galleries Distribution</string>
     <string name="galleries">Galleries</string>
+    <string name="question_goes_here">Question goes here</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="quiz">Quiz</string>
 </resources>
