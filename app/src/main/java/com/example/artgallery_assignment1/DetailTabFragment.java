@@ -15,6 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.example.artgallery_assignment1.Model.ArtPieceModel;
 import com.google.gson.Gson;
 
 public class DetailTabFragment extends Fragment {
@@ -34,16 +35,16 @@ public class DetailTabFragment extends Fragment {
             TextView titleTextView = view.findViewById(R.id.artTitle);
             TextView descriptionTextView = view.findViewById(R.id.artDescription);
             TextView authorTextView = view.findViewById(R.id.artAuthor);
-            TextView paintedDateTextView = view.findViewById(R.id.artPaintedDate);
+//            TextView paintedDateTextView = view.findViewById(R.id.artPaintedDate);
             TextView artGenreTextView = view.findViewById(R.id.artGenre);
             TextView artStyleTextView = view.findViewById(R.id.artStyle);
             TextView artTechniqueTextView = view.findViewById(R.id.artTechnique);
             ImageView artImageView = view.findViewById(R.id.artDetailImage);
 
-            titleTextView.setText(artPiece.getTitle());
+            titleTextView.setText(artPiece.getTitle() + " (" + artPiece.getPaintedDate() + ")");
             descriptionTextView.setText(artPiece.getDescription());
             authorTextView.setText("By " + artPiece.getAuthor());
-            paintedDateTextView.setText("Painted in " + artPiece.getPaintedDate());
+//            paintedDateTextView.setText("Painted in " + artPiece.getPaintedDate());
             artGenreTextView.setText("Genre: " + artPiece.getGenre());
             artStyleTextView.setText("Style: " + artPiece.getStyle());
             artTechniqueTextView.setText("Technique: " + artPiece.getTechnique());

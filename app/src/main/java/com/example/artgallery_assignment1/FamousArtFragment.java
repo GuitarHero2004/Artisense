@@ -14,6 +14,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.artgallery_assignment1.Model.ArtPieceModel;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 

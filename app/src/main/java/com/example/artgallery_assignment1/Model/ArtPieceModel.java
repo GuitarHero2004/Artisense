@@ -1,6 +1,4 @@
-package com.example.artgallery_assignment1;
-
-import android.location.Location;
+package com.example.artgallery_assignment1.Model;
 
 import java.io.Serializable;
 

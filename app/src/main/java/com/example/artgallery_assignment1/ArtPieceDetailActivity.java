@@ -6,6 +6,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.artgallery_assignment1.Model.ArtPieceModel;
 import com.google.android.material.tabs.TabLayout;
 import com.google.gson.Gson;
 
