@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.artgallery_assignment1.Model.ArtPieceModel;
 
 import java.util.ArrayList;
@@ -63,6 +64,7 @@ public class ArtPieceAdapter extends RecyclerView.Adapter<ArtPieceAdapter.ArtPie
         if (imageResId != 0) {  // Check if resource ID is valid
             Glide.with(context)
                     .load(imageResId)  // Load the drawable resource ID
+                    .diskCacheStrategy(DiskCacheStrategy.NONE)  // Disable caching
                     .placeholder(R.drawable.fintechlogo)  // Placeholder image while loading
                     .error(R.drawable.fintechlogo)  // Error image if the resource ID is invalid
                     .into(holder.artImageView);
