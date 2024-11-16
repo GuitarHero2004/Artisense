@@ -108,7 +108,7 @@
     "genre": "Group Portrait",
     "location": {
       "name": "Rijksmuseum",
-        "address": "Museumstraat 1, 1071 XX Amsterdam, Netherlands",
+      "address": "Museumstraat 1, 1071 XX Amsterdam, Netherlands",
       "longitude": 4.8854,
       "latitude": 52.36
     }
@@ -127,7 +127,7 @@
     "genre": "Symbolism",
     "location": {
       "name": "Österreichische Galerie Belvedere",
-        "address": "Prinz Eugen-Straße 27, 1030 Vienna, Austria",
+      "address": "Prinz Eugen-Straße 27, 1030 Vienna, Austria",
       "longitude": 16.3817,
       "latitude": 48.1919
     }
@@ -146,7 +146,7 @@
     "genre": "Portrait",
     "location": {
       "name": "Art Institute of Chicago",
-        "address": "111 S Michigan Ave, Chicago, IL 60603, United States",
+      "address": "111 S Michigan Ave, Chicago, IL 60603, United States",
       "longitude": -87.6232,
       "latitude": 41.8796
     }
@@ -165,7 +165,7 @@
     "genre": "Portrait",
     "location": {
       "name": "Museo del Prado",
-        "address": "Calle de Ruiz de Alarcón, 23, 28014 Madrid, Spain",
+      "address": "Calle de Ruiz de Alarcón, 23, 28014 Madrid, Spain",
       "longitude": -3.6907,
       "latitude": 40.4138
     }
@@ -184,7 +184,7 @@
     "genre": "Mythological",
     "location": {
       "name": "Uffizi Gallery",
-        "address": "Piazzale degli Uffizi, 6, 50122 Florence, Italy",
+      "address": "Piazzale degli Uffizi, 6, 50122 Florence, Italy",
       "longitude": 11.2558,
       "latitude": 43.7696
     }
@@ -203,7 +203,7 @@
     "genre": "Religious",
     "location": {
       "name": "Santa Maria delle Grazie",
-        "address": "Piazza di Santa Maria delle Grazie, 2, 20123 Milan, Italy",
+      "address": "Piazza di Santa Maria delle Grazie, 2, 20123 Milan, Italy",
       "longitude": 9.1916,
       "latitude": 45.4651
     }
@@ -222,7 +222,7 @@
     "genre": "History Painting",
     "location": {
       "name": "Museo Reina Sofía",
-        "address": "Calle de Santa Isabel, 52, 28012 Madrid, Spain",
+      "address": "Calle de Santa Isabel, 52, 28012 Madrid, Spain",
       "longitude": -3.6932,
       "latitude": 40.4081
     }
@@ -241,7 +241,7 @@
     "genre": "Religious",
     "location": {
       "name": "Sistine Chapel",
-        "address": "Vatican City",
+      "address": "Vatican City",
       "longitude": 12.4534,
       "latitude": 41.9022
     }
@@ -260,7 +260,7 @@
     "genre": "Landscape",
     "location": {
       "name": "Musée de l'Orangerie",
-        "address": "Jardin Tuileries, 75001 Paris, France",
+      "address": "Jardin Tuileries, 75001 Paris, France",
       "longitude": 2.3226,
       "latitude": 48.8637
     }
@@ -279,7 +279,7 @@
     "genre": "Portrait",
     "location": {
       "name": "Musée d'Orsay",
-        "address": "1 Rue de la Légion d'Honneur, 75007 Paris, France",
+      "address": "1 Rue de la Légion d'Honneur, 75007 Paris, France",
       "longitude": 2.3266,
       "latitude": 48.8599
     }
@@ -298,8 +298,8 @@
     "genre": "History Painting",
     "location": {
       "name": "Louvre Museum",
-        "address": "Rue de Rivoli, 75001 Paris, France",
-      "longitude": 2.3376,
+      "address": "Rue de Rivoli, 75001 Paris, France",
+      "longitude": 2.3386,
       "latitude": 48.8606
     }
   },
@@ -317,7 +317,7 @@
     "genre": "History Painting",
     "location": {
       "name": "Vatican Museums",
-        "address": "Viale Vaticano, 00165 Vatican City",
+      "address": "Viale Vaticano, 00165 Vatican City",
       "longitude": 12.4534,
       "latitude": 41.9022
     }
@@ -336,7 +336,7 @@
     "genre": "Allegory",
     "location": {
       "name": "Prado Museum",
-        "address": "Calle de Ruiz de Alarcón, 23, 28014 Madrid, Spain",
+      "address": "Calle de Ruiz de Alarcón, 23, 28014 Madrid, Spain",
       "longitude": -3.6921,
       "latitude": 40.4138
     }
@@ -355,9 +355,104 @@
     "genre": "Sculpture",
     "location": {
       "name": "Louvre Museum",
-        "address": "Rue de Rivoli, 75001 Paris, France",
-      "longitude": 2.3376,
+      "address": "Rue de Rivoli, 75001 Paris, France",
+      "longitude": 2.3386,
       "latitude": 48.8606
+    }
+  },
+  {
+    "title": "Em Thúy",
+    "author": "Trần Văn Cẩn",
+    "shortDescription": "A portrait of a young Vietnamese girl, capturing innocence and purity.",
+    "description": "Tran Van Can's 'Em Thúy' is one of the most iconic paintings in Vietnamese art history. Completed in 1943, this portrait captures a young girl, Em Thúy, in a moment of serene innocence. With soft brushstrokes and a delicate color palette, the artist depicts the girl's gentle expression and thoughtful gaze, embodying the grace and beauty of Vietnamese youth. This portrait is not only a masterpiece of realism but also a cultural symbol of purity and tradition, showcasing the artist's technical skill and sensitivity to character.\n\n'Em Thúy' is remarkable for the artist's use of light and shadow to enhance the girl’s features subtly, giving her a lifelike warmth that draws viewers into the moment. Tran Van Can’s technique combines elements of French academic realism with distinctly Vietnamese sensibilities, creating a style that is both refined and culturally grounded. The girl's traditional attire, modest posture, and delicate facial expression highlight a sense of innocence and vulnerability, while her gaze conveys a quiet strength, reflecting the values and spirit of Vietnam.\n\nAs a cultural symbol, 'Em Thúy' holds a place of honor within Vietnam's national heritage. During a period when Vietnamese art was evolving and influenced by foreign artistic methods, Tran Van Can’s work stood out as a deeply Vietnamese expression. It evokes nostalgia for a simpler, more traditional Vietnam, reminding viewers of the importance of preserving national identity through art. This image became a powerful representation of young Vietnamese womanhood, emphasizing cultural ideals of purity, beauty, and humility.\n\nToday, 'Em Thúy' is celebrated not only as a work of art but also as a historical artifact. It is widely studied for its representation of Vietnamese culture and values, and remains an essential part of art education in Vietnam. Tran Van Can’s painting continues to inspire admiration for its timeless beauty and technical mastery. Displayed at the Vietnam National Museum of Fine Arts, 'Em Thúy' attracts visitors from around the world who are drawn to its serene beauty and cultural resonance. This treasured portrait serves as a reminder of Vietnam's enduring artistic heritage, encapsulating the spirit of Vietnamese youth and the profound connection between art, culture, and identity.",
+    "paintedDate": "1943",
+    "image": "em_thuy",
+    "rating": 4.9,
+    "reviews": 870,
+    "style": "Vietnamese Realism",
+    "technique": "Oil on canvas",
+    "genre": "Portrait",
+    "location": {
+      "name": "Vietnam National Museum of Fine Arts",
+      "address": "66 Nguyen Thai Hoc, Hanoi, Vietnam",
+      "longitude": 105.8333,
+      "latitude": 21.0282
+    }
+  },
+  {
+    "title": "Thiếu nữ bên hoa huệ",
+    "author": "Tô Ngọc Vân",
+    "shortDescription": "A serene portrait of a Vietnamese girl surrounded by lilies.",
+    "description": "'Thiếu nữ bên hoa huệ,' painted in 1943 by To Ngoc Van, is celebrated for its soft lines and peaceful depiction of a young woman, emphasizing traditional Vietnamese beauty and elegance. The painting captures the calm essence of Vietnamese rural life, with lilies symbolizing purity, grace, and simplicity. The girl's contemplative expression and relaxed posture reflect a sense of inner peace, inviting viewers to pause and reflect on the tranquility of rural Vietnam. The delicate colors of the lilies and the soft, muted tones of the background contribute to a harmonious atmosphere, enhancing the peaceful mood of the scene.\n\nTo Ngoc Van’s mastery in using light and shadow adds depth and dimension to the composition, allowing the viewer to focus on the serene beauty of the young girl and the symbolic presence of the lilies around her. The artist's delicate brushwork is evident in the soft rendering of the girl's face and the texture of the flowers, emphasizing the smooth, flowing lines that evoke a sense of calm and grace. The girl's simple attire, which blends seamlessly with the natural surroundings, reflects the humble and timeless qualities of rural Vietnamese life.\n\n'Young Girl by Lilies' is a fine example of Vietnamese Impressionism, a style that focuses on the beauty of everyday life through subtle color palettes and an emphasis on mood rather than detail. To Ngoc Van’s use of this style brings forth a sense of nostalgia for a quieter, more peaceful time in Vietnam's rural history. The painting is not just a portrait of a young woman, but a larger reflection of the connection between Vietnamese people and the natural world, highlighting the importance of simplicity, grace, and inner peace.\n\nToday, 'Young Girl by Lilies' remains an iconic piece of national art, recognized not only for its technical brilliance but also for its cultural and emotional resonance. It stands as a testament to To Ngoc Van's ability to capture the essence of Vietnamese beauty and spirit, making it a cherished artwork within the Vietnamese artistic community. The painting continues to inspire viewers, evoking a sense of nostalgia for the purity and elegance of traditional Vietnamese life and remaining a symbol of national pride.",
+    "paintedDate": "1943",
+    "image": "young_girl_by_lilies",
+    "rating": 4.8,
+    "reviews": 720,
+    "style": "Vietnamese Impressionism",
+    "technique": "Oil on canvas",
+    "genre": "Portrait",
+    "location": {
+      "name": "Vietnam National Museum of Fine Arts",
+      "address": "66 Nguyen Thai Hoc, Hanoi, Vietnam",
+      "longitude": 105.8333,
+      "latitude": 21.0282
+    }
+  },
+  {
+    "title": "Chơi ô ăn quan",
+    "author": "Nguyễn Phan Chánh",
+    "shortDescription": "A cherished painting depicting children playing the traditional Vietnamese game Ô ăn quan.",
+    "description": "Nguyen Phan Chanh's 'Chơi Ô ăn quan' is a beloved work of Vietnamese art that captures the joy and innocence of childhood through a traditional Vietnamese game. Painted in 1930, this scene illustrates a group of children deeply engrossed in the game of Ô ăn quan, a popular and time-honored pastime in Vietnam. The game, which involves strategic movement of stones, is not only a source of entertainment but also a way of passing down cultural values from generation to generation. Through the depiction of this simple, yet profound game, Chanh reflects the traditional importance of play in childhood, as well as the role it plays in teaching strategy, patience, and teamwork.\n\nChanh’s attention to detail and vibrant color palette bring the scene to life, drawing viewers into the children’s world and evoking a deep sense of nostalgia and cultural pride. The rich, earthy tones of the children’s clothing contrast with the lively greens and browns of the natural surroundings, creating a harmonious balance between the figures and their environment. The relaxed expressions and natural gestures of the children reflect both the playfulness of youth and a strong sense of camaraderie, making the painting resonate universally. Each child’s focused attention on the game highlights the immersive nature of play and how it connects individuals, even in the most informal settings.\n\nCelebrated for its authentic portrayal of Vietnamese traditions, 'Chơi Ô ăn quan' remains a cultural treasure, exemplifying themes of play, friendship, and shared heritage. Through this work, Chanh not only documents a traditional Vietnamese game but also captures the simple yet profound moments that define community and identity. The artist’s use of space and composition draws the viewer’s eye toward the interaction between the children, reinforcing the notion that these small, everyday experiences form the foundation of a collective cultural identity.\n\nToday, 'Playing Ô ăn quan' stands as a reminder of Vietnam's rich cultural tapestry and the enduring beauty of everyday life. Its timeless depiction of youthful joy continues to inspire and connect viewers with Vietnam’s traditions, celebrating the beauty of shared experiences and the universal bond of childhood play. This painting is not merely a snapshot of a game, but a powerful symbol of the cultural continuity that has shaped the nation across generations.",
+    "paintedDate": "1930",
+    "image": "choi_o_an_quan",
+    "rating": 4.7,
+    "reviews": 680,
+    "style": "Vietnamese Realism",
+    "technique": "Watercolour on silk",
+    "genre": "Genre Painting",
+    "location": {
+      "name": "Vietnam National Museum of Fine Arts",
+      "address": "66 Nguyen Thai Hoc, Hanoi, Vietnam",
+      "longitude": 105.8333,
+      "latitude": 21.0282
+    }
+  },
+  {
+    "title": "Kết nạp Đảng ở Điện Biên Phủ",
+    "author": "Nguyễn Sáng",
+    "shortDescription": "A historic painting depicting the induction of new party members in Điện Biên Phủ.",
+    "description": "Nguyen Sang's 'Kết nạp Đảng ở Điện Biên Phủ' is a landmark in Vietnamese art history, capturing the spirit and solemnity of a defining moment in Vietnam's struggle for independence. Painted in 1954, the work immortalizes the ceremonial induction of new members into the Communist Party during the fierce battle of Điện Biên Phủ, a critical campaign that ultimately led to Vietnamese victory over French colonial forces. Through somber tones and precise details, Sang conveys both the gravity of the occasion and the determination of the Vietnamese people. The painting encapsulates a pivotal moment when the Party expanded its reach and galvanized the masses to rally for the liberation of the country.\n\nThe composition emphasizes unity and resilience, with figures shown standing in solidarity amidst the hardships of war. The expression on each face reflects courage and commitment, reinforcing the collective strength that drove the independence movement. The dimly lit setting, symbolizing the enduring resolve of the soldiers, contrasts with subtle highlights that draw the viewer's eye to the focal points of the ceremony. This contrast between shadow and light represents not only the physical challenges of war but also the ideological battle that was taking place in the hearts and minds of the people.\n\nNguyen Sang's use of light and shadow, combined with his realistic portrayal of emotion, brings the scene to life, allowing viewers to connect with the historical and emotional weight of the moment. The figures are rendered with careful attention to anatomical precision, giving each individual a sense of depth and personality, which adds to the emotional gravity of the scene. The dynamic posture of the figures, the clasped hands, and the unwavering stances all suggest a collective determination, highlighting the importance of unity in the struggle for independence.\n\nToday, this painting is celebrated not only as a masterpiece of Vietnamese realism but also as a poignant reminder of the sacrifices made for the nation’s sovereignty. 'Induction of New Party Members in Điện Biên Phủ' serves as a powerful symbol of the sacrifices and perseverance of the Vietnamese people during a period of immense struggle, reminding contemporary viewers of the strength required to achieve national unity and independence.",
+    "paintedDate": "1963",
+    "image": "ket_nap_dang_o_dien_bien_phu",
+    "rating": 4.8,
+    "reviews": 720,
+    "style": "Vietnamese Realism",
+    "technique": "Oil on canvas",
+    "genre": "History Painting",
+    "location": {
+      "name": "Vietnam National Museum of Fine Arts",
+      "address": "66 Nguyen Thai Hoc, Hanoi, Vietnam",
+      "longitude": 105.8333,
+      "latitude": 21.0282
+    }
+  },
+  {
+    "title": "Vườn xuân Trung Nam Bắc",
+    "author": "Nguyễn Gia Trí",
+    "shortDescription": "A vibrant painting capturing the beauty of spring in different regions of Vietnam.",
+    "description": "Nguyễn Gia Trí's 'Vườn xuân Trung Nam Bắc' is a stunning portrayal of the seasonal beauty of Vietnam, showcasing the diversity of landscapes across the country's north, central, and southern regions. Painted between 1969 and 1989, this lacquer on wood artwork combines traditional Vietnamese motifs with modern artistic sensibilities, highlighting the cultural richness and natural splendor that characterize Vietnam’s seasons. Through a harmonious composition of vibrant colors and intricate details, Trí brings to life the rejuvenating spirit of spring, a time of renewal and hope that is universally celebrated in Vietnamese culture. The painting is a visual journey through the heart of Vietnam, capturing the essence of the changing landscape as it transitions from the snow-capped mountains of the north to the lush, tropical warmth of the south.\n\nThe first section of the painting portrays the north of Vietnam, with its mist-covered mountains, blossoming peach trees, and the serene, winding rivers that define the region’s springtime. The artist’s use of deep reds, greens, and earthy tones symbolizes both the cultural vibrancy and the natural beauty of the north. In the center, the central region of Vietnam is represented with its iconic lotus flowers, rolling hills, and fields of blooming rice, while the southern part of the painting bursts forth with the vivid yellows and oranges of tropical flowers and fruits, capturing the lively and colorful atmosphere of spring in the south. Each region is uniquely represented, yet the painting’s fluid transitions between sections reflect the interconnectedness of Vietnam’s diverse landscapes and the shared celebration of the arrival of spring.\n\nThe lacquer technique used by Nguyễn Gia Trí gives the painting a tactile quality, with layers of lustrous finish that bring out the vibrant colors and create a sense of depth and movement. The fine details, from the delicate petals of flowers to the intricate textures of leaves and trees, demonstrate Trí's technical mastery and deep appreciation for Vietnam’s natural world. 'Vườn xuân Trung Nam Bắc' is more than just a landscape painting; it is an ode to the cyclical rhythms of nature and the timeless beauty that defines the Vietnamese countryside. Today, the piece is not only celebrated as a masterpiece of Vietnamese Modern Art but also as a cultural treasure, reflecting both the national identity and the diverse natural heritage of Vietnam.",
+    "paintedDate": "1969-1989",
+    "image": "vuon_xuan_trung_nam_bac",
+    "rating": 4.7,
+    "reviews": 680,
+    "style": "Vietnamese Modern Art",
+    "technique": "Lacquer on wood",
+    "genre": "Landscape",
+    "location": {
+      "name": "Ho Chi Minh City Museum of Fine Arts",
+      "address": "97A Pho Duc Chinh, District 1, Ho Chi Minh City, Vietnam",
+      "longitude": 106.6983,
+      "latitude": 10.7769
     }
   }
 ]
