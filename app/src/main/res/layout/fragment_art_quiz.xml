@@ -3,25 +3,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ArtQuizFragment"
+    tools:context=".Fragment.ArtQuizFragment"
     android:orientation="vertical"
     android:id="@+id/art_quiz"
-    android:paddingHorizontal="8dp">
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/art_quizzes"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
 
     <TextView
         android:id="@+id/questionText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/question_goes_here"
-        android:textSize="18sp"
-        android:padding="16dp" />
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="8dp" />
 
     <RadioGroup
         android:id="@+id/answersGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="8dp"
+        android:layout_marginVertical="8dp">
 
         <!-- Radio Buttons will be added programmatically -->
     </RadioGroup>
@@ -30,7 +42,6 @@
         android:id="@+id/nextBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/grey"
         android:padding="16dp"
         android:text="@string/next"
         android:textSize="16sp"
@@ -38,12 +49,38 @@
         app:cornerRadius="8dp" />
 
     <Button
-        android:id="@+id/submitBtn"
+        android:id="@+id/restartBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
         android:textStyle="bold"
         android:textSize="16sp"
-        android:text="@string/submit"
-        app:cornerRadius="8dp"/>
+        android:layout_marginBottom="16dp"
+        android:text="@string/restart_quiz"
+        app:cornerRadius="8dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/questionNumberText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_index"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:paddingVertical="8dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz_score"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:gravity="center_horizontal"
+        android:visibility="gone"/>
+
 </LinearLayout>

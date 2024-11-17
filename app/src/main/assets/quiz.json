@@ -180,5 +180,44 @@
       ],
       "correctAnswer": "Flowers"
     }
+  },
+  {
+    "artPieceId": "the_creation_of_adam",
+    "quiz": {
+      "question": "Who created The Creation of Adam?",
+      "answers": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Raphael",
+        "Donatello"
+      ],
+      "correctAnswer": "Michelangelo"
+    }
+  },
+  {
+    "artPieceId": "the_birth_of_venus",
+    "quiz": {
+      "question": "Who painted The Birth of Venus?",
+      "answers": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Sandro Botticelli",
+        "Raphael"
+      ],
+      "correctAnswer": "Sandro Botticelli"
+    }
+  },
+  {
+    "artPiece": "ket_nap_dang_o_dien_bien_phu",
+    "quiz": {
+      "question": "What historical event is depicted in Kết Nạp Đảng ở Điện Biên Phủ?",
+      "answers": [
+        "The fall of Saigon",
+        "The Battle of Dien Bien Phu",
+        "The Tet Offensive",
+        "The Vietnam War"
+      ],
+      "correctAnswer": "The Battle of Dien Bien Phu"
+    }
   }
 ]
