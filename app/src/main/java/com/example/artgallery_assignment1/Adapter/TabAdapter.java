@@ -1,4 +1,4 @@
-package com.example.artgallery_assignment1;
+package com.example.artgallery_assignment1.Adapter;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

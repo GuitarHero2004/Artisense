@@ -21,9 +21,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ArtGallery_Assignment1"
         tools:targetApi="31">
-        <activity
-            android:name=".AddArtworkFormActivity"
-            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -37,13 +34,13 @@
             android:required="false" />
 
         <activity
-            android:name=".ArtPieceDetailActivity"
+            android:name=".Activity.ArtPieceDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".GalleryActivity"
+            android:name=".Activity.GalleryActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".Activity.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

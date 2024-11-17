@@ -1,4 +1,4 @@
-package com.example.artgallery_assignment1;
+package com.example.artgallery_assignment1.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.artgallery_assignment1.R;
 
 public class HomeActivity extends AppCompatActivity {
 

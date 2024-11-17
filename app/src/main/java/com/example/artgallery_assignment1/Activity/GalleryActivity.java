@@ -1,4 +1,4 @@
-package com.example.artgallery_assignment1;
+package com.example.artgallery_assignment1.Activity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -7,6 +7,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import com.example.artgallery_assignment1.Fragment.ArtQuizFragment;
+import com.example.artgallery_assignment1.Fragment.FamousArtFragment;
+import com.example.artgallery_assignment1.Fragment.GalleryMapFragment;
+import com.example.artgallery_assignment1.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class GalleryActivity extends AppCompatActivity {

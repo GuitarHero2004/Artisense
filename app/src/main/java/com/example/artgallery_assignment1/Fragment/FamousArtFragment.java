@@ -1,4 +1,4 @@
-package com.example.artgallery_assignment1;
+package com.example.artgallery_assignment1.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +14,10 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.artgallery_assignment1.Adapter.ArtPieceAdapter;
+import com.example.artgallery_assignment1.Activity.ArtPieceDetailActivity;
 import com.example.artgallery_assignment1.Model.ArtPieceModel;
+import com.example.artgallery_assignment1.R;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 

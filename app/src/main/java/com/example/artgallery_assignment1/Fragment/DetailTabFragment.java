@@ -1,4 +1,4 @@
-package com.example.artgallery_assignment1;
+package com.example.artgallery_assignment1.Fragment;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.artgallery_assignment1.Model.ArtPieceModel;
+import com.example.artgallery_assignment1.R;
 import com.google.gson.Gson;
 
 public class DetailTabFragment extends Fragment {

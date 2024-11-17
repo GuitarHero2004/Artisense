@@ -1,4 +1,4 @@
-package com.example.artgallery_assignment1;
+package com.example.artgallery_assignment1.Activity;
 
 import android.os.Bundle;
 
@@ -6,7 +6,11 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.artgallery_assignment1.Adapter.TabAdapter;
+import com.example.artgallery_assignment1.Fragment.DetailTabFragment;
+import com.example.artgallery_assignment1.Fragment.MapTabFragment;
 import com.example.artgallery_assignment1.Model.ArtPieceModel;
+import com.example.artgallery_assignment1.R;
 import com.google.android.material.tabs.TabLayout;
 import com.google.gson.Gson;
 
