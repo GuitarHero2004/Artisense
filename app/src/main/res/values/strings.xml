@@ -21,4 +21,8 @@
     <string name="submit">Submit</string>
     <string name="next">Next</string>
     <string name="quiz">Quiz</string>
+    <string name="quiz_score">Score: 0/0</string>
+    <string name="restart_quiz">Restart Quiz</string>
+    <string name="question_index">Question 1</string>
+    <string name="art_quizzes">Art Quizzes</string>
 </resources>
